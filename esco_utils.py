@@ -87,7 +87,7 @@ def get_stats(client):
         predictions = [{'task_id':task.task_id,'predictions': top_tags(model_id=task.model_id,
                                         title=task.title,
                                         description=task.description).json()} 
-                       for task in task_data[task_data.task_id.isin(tags.task_id.values)].itertuples()]
+                       for task in task_data.itertuples()]
         predictions = pd.DataFrame(predictions)
         predictions['occ_ind'] = predictions.predictions.apply(lambda preds: {pred['index']:i for i,pred in enumerate(preds)})
         predictions['occ_dist'] = predictions.predictions.apply(lambda preds: {pred['index']:pred['distance'] for pred in preds})

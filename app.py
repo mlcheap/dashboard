@@ -40,6 +40,7 @@ def reload_data():
         reload_time = time.time()
         API_TOKEN = eu.get_token()
         client = eu.Client(API_TOKEN)    
+        client.api.base_api_url = 'http://flask_sdk:6221'
         tags, pred_stats, user_stats = eu.get_stats(client)
         pred_stats.to_csv('data/pred_stats.csv')
         user_stats.to_csv('data/user_stats.csv')
