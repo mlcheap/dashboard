@@ -5,12 +5,14 @@ import ast
 import pandas as pd
 import psycopg2 as pg
 import pandas.io.sql as psql
+import tqdm
 
 
 from MlCheap.Client import Client
 from MlCheap.LabelClass import LabelClass
 from MlCheap.Task import Task, Data, Label
 from MlCheap.Project import Project
+
 
 C = dict(
         SDK_HOST = 'localhost:6221',
@@ -174,18 +176,18 @@ def load_skillLab_DB():
 
     vac_conn = pg.connect(user=DB_USER,
                     password=DB_PASS,
-                    host=VAC_HOST,
-                    port=VAC_PORT,
+                    host=VAC_HOST.split(':')[0],
+                    port=VAC_HOST.split(':')[1],
                     database=VAC_DBNAME)
 
     skill_conn = pg.connect(user=DB_USER,
                     password=DB_PASS,
-                    host=SKILL_HOST,
-                    port=SKILL_PORT,
+                    host=SKILL_HOST.split(':')[0],
+                    port=SKILL_HOST.split(':')[1],
                     database=SKILL_DBNAME)
     return vac_conn, skill_conn
 
-def add_classes(data,project_id):
+def add_classes(client, data,project_id):
     new_classes = []
     for idx, _class in enumerate(data):
         name = _class["title"]
@@ -200,30 +202,41 @@ def add_classes(data,project_id):
     response = client.create_classes(project_id, new_classes)
     # print(response)
     
-def get_all_tags(lang,conn):
-    if lang=='ar':
-        occupation_local = psql.read_sql(f"""
-        SELECT * FROM occupation_translations 
-        WHERE description IS NOT NULL 
-        AND locale='{lang}'
-        """, skill_conn)
-    else:
-        occupation_local = psql.read_sql(f"""
-        SELECT * FROM occupation_translations 
-        WHERE alternates IS NOT NULL 
-        AND locale='{lang}'
+def sql_all_tags(lang,conn):
+    occupation_local = psql.read_sql(f"""
+        SELECT * FROM
+        (SELECT * FROM occupations WHERE data_set='esco') AS occ 
+        LEFT JOIN (SELECT * FROM occupation_translations WHERE locale='{lang}') as occtr
+        ON occ.id=occtr.occupation_id
         """, conn)
     return occupation_local.to_dict(orient="row")
+    
+# def get_all_tags(lang,conn):
+#     if lang=='ar':
+#         occupation_local = psql.read_sql(f"""
+#         SELECT * FROM occupation_translations 
+#         WHERE description IS NOT NULL 
+#         AND locale='{lang}'
+#         """, skill_conn)
+#     else:
+#         occupation_local = psql.read_sql(f"""
+#         SELECT * FROM occupation_translations 
+#         WHERE alternates IS NOT NULL 
+#         AND locale='{lang}'
+#         """, conn)
+#     return occupation_local.to_dict(orient="row")
 
-def sample_vacancy(country, conn):
+def sample_vacancy(country, conn, num=300):
     job = psql.read_sql(f"""
-    SELECT * FROM jobs 
-    WHERE location_country='{country}'
-    LIMIT 300
-    """, conn)
+        SELECT * FROM jobs 
+        WHERE location_country='{country}'
+        AND RANDOM() <= .05
+        LIMIT {num}
+        """, conn)
+
     return job
 
-def add_samples(samples, project_id):
+def add_samples(client, samples, project_id):
     for i in range(len(samples)):
         text_tagging_task = EscoOccupationTask(samples.iloc[i]['title'],
                                                samples.iloc[i]['description'])
