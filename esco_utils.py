@@ -57,7 +57,7 @@ def get_stats(client):
              for status in statuses 
              for task in client.get_all_tasks(pid,status=status)['data']['tasks']]
     tasks = pd.DataFrame(tasks).rename(columns={'_id':'task_id'})
-    tasks['beta'] = tasks.project_name.apply(lambda x: len(x)==3) # designate beta test 
+    tasks['beta'] = tasks.project_name.apply(lambda x: len(x)==4 and x[3]=='2') # designate beta test 
     tasks = tasks[tasks.beta]
 
 
