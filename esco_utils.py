@@ -13,23 +13,10 @@ from MlCheap.LabelClass import LabelClass
 from MlCheap.Task import Task, Data, Label
 from MlCheap.Project import Project
 
-
-C = dict(
-        SDK_HOST = 'localhost:6221',
-        ML_HOST = 'localhost:5000',
-        SKILL_HOST = "localhost:8765",
-        VAC_HOST = "localhost:5678",
-        )
-
-for k in C.keys():
-    if k in os.environ:
-        C[k] = os.getenv(k)
-
-SDK_HOST = C['SDK_HOST']
-ML_HOST = C['ML_HOST']
-SKILL_HOST = C['SKILL_HOST']
-VAC_HOST = C['VAC_HOST']
-
+SDK_HOST = os.getenv('SDK_HOST') or 'localhost:6221'
+ML_HOST = os.getenv('ML_HOST') or 'localhost:5000'
+SKILL_HOST = os.getenv('SKILL_HOST') or 'localhost:8765'
+VAC_HOST = os.getenv('VAC_HOST') or 'localhost:5678'
 
 
 ESCO_TEXT_TAGGING_TYPE = 'esco-text-tagging'
