@@ -1,0 +1,561 @@
+,label_time,labeler_id,lang,task_id,project_id,project_name,occupation_id,email,occupation_title,pred_rank,pred_dist,top_5,top_10,top_20,top_50
+0,8347,61dda30da33565ec1ce31aab,,61dde40c527776b760a85fa0,61dde40a527776b760a85f9f,GBR,1864,g.portik@skilllab.io,sales assistant,0,1.1933013643686476,True,True,True,True
+1,8347,61dda193a33565ec1ce31aa7,,61dde40c527776b760a85fa1,61dde40a527776b760a85f9f,GBR,2176,a.radic@skilllab.io,investment analyst,0,1.0572035379837499,True,True,True,True
+2,8347,61dda193a33565ec1ce31aa7,,61dde40c527776b760a85fa2,61dde40a527776b760a85f9f,GBR,248,a.radic@skilllab.io,customer service representative,0,1.228299792346357,True,True,True,True
+3,8347,61dda193a33565ec1ce31aa7,,61dde40c527776b760a85fa2,61dde40a527776b760a85f9f,GBR,1365,a.radic@skilllab.io,client relations manager,1,1.307312371020137,True,True,True,True
+4,8347,61dda193a33565ec1ce31aa7,,61dde40c527776b760a85fa2,61dde40a527776b760a85f9f,GBR,2175,a.radic@skilllab.io,customer contact center information clerk,3,1.313726125273766,True,True,True,True
+5,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fa3,61dde40a527776b760a85f9f,GBR,248,a.radic@skilllab.io,customer service representative,0,1.2104580543611894,True,True,True,True
+6,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fa3,61dde40a527776b760a85f9f,GBR,2232,a.radic@skilllab.io,service manager,9,1.3496389513969322,False,True,True,True
+7,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fa3,61dde40a527776b760a85f9f,GBR,3165,a.radic@skilllab.io,Customer data manager,17,1.3597253165595429,False,False,True,True
+8,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fa4,61dde40a527776b760a85f9f,GBR,2781,a.radic@skilllab.io,merchandiser,3000,2.0,False,False,False,False
+9,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fa5,61dde40a527776b760a85f9f,GBR,252,a.radic@skilllab.io,commercial sales representative,0,1.2650817767811557,True,True,True,True
+10,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fa6,61dde40a527776b760a85f9f,GBR,2323,a.radic@skilllab.io,logistics engineer,3000,2.0,False,False,False,False
+11,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fa7,61dde40a527776b760a85f9f,GBR,248,a.radic@skilllab.io,customer service representative,0,1.3409003812535187,True,True,True,True
+12,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fa7,61dde40a527776b760a85f9f,GBR,1871,a.radic@skilllab.io,customer experience manager,1,1.3596315316719791,True,True,True,True
+13,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fa8,61dde40a527776b760a85f9f,GBR,2701,a.radic@skilllab.io,insurance underwriter,0,1.2503981187088937,True,True,True,True
+14,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fa9,61dde40a527776b760a85f9f,GBR,252,a.radic@skilllab.io,commercial sales representative,0,1.281714569345357,True,True,True,True
+15,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85faa,61dde40a527776b760a85f9f,GBR,252,a.radic@skilllab.io,commercial sales representative,0,1.281714569345357,True,True,True,True
+16,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fab,61dde40a527776b760a85f9f,GBR,1864,a.radic@skilllab.io,sales assistant,23,1.3869643130893001,False,False,False,True
+17,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fac,61dde40a527776b760a85f9f,GBR,1864,a.radic@skilllab.io,sales assistant,22,1.3887459373141653,False,False,False,True
+18,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fad,61dde40a527776b760a85f9f,GBR,248,a.radic@skilllab.io,customer service representative,4,1.3376089148309986,True,True,True,True
+19,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fad,61dde40a527776b760a85f9f,GBR,1864,a.radic@skilllab.io,sales assistant,25,1.3786086539810638,False,False,False,True
+20,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fae,61dde40a527776b760a85f9f,GBR,1864,a.radic@skilllab.io,sales assistant,0,1.200825283030119,True,True,True,True
+21,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85faf,61dde40a527776b760a85f9f,GBR,1111,a.radic@skilllab.io,sales support assistant,4,1.2874708862075364,True,True,True,True
+22,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85faf,61dde40a527776b760a85f9f,GBR,1864,a.radic@skilllab.io,sales assistant,6,1.307737851493894,False,True,True,True
+23,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fb0,61dde40a527776b760a85f9f,GBR,2175,a.radic@skilllab.io,customer contact center information clerk,4,1.2980346463667491,True,True,True,True
+24,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fb1,61dde40a527776b760a85f9f,GBR,1864,a.radic@skilllab.io,sales assistant,21,1.376426772860284,False,False,False,True
+25,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fb2,61dde40a527776b760a85f9f,GBR,1111,a.radic@skilllab.io,sales support assistant,4,1.3322266530559126,True,True,True,True
+26,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fb2,61dde40a527776b760a85f9f,GBR,141,a.radic@skilllab.io,shop assistant,3000,2.0,False,False,False,False
+27,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fb3,61dde40a527776b760a85f9f,GBR,2781,a.radic@skilllab.io,merchandiser,3,1.3596882435827442,True,True,True,True
+28,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fb3,61dde40a527776b760a85f9f,GBR,248,a.radic@skilllab.io,customer service representative,8,1.3727070908858758,False,True,True,True
+29,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fb3,61dde40a527776b760a85f9f,GBR,1864,a.radic@skilllab.io,sales assistant,3000,2.0,False,False,False,False
+30,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fb4,61dde40a527776b760a85f9f,GBR,1111,a.radic@skilllab.io,sales support assistant,0,1.0991053121713652,True,True,True,True
+31,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fb4,61dde40a527776b760a85f9f,GBR,1864,a.radic@skilllab.io,sales assistant,1,1.3232518366734762,True,True,True,True
+32,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fb5,61dde40a527776b760a85f9f,GBR,2531,a.radic@skilllab.io,inventory coordinator,0,1.1975881661349224,True,True,True,True
+33,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fb6,61dde40a527776b760a85f9f,GBR,1980,a.radic@skilllab.io,sales manager,2,1.3056220857850254,True,True,True,True
+34,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fb6,61dde40a527776b760a85f9f,GBR,1111,a.radic@skilllab.io,sales support assistant,3,1.3162247086217502,True,True,True,True
+35,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fb6,61dde40a527776b760a85f9f,GBR,1864,a.radic@skilllab.io,sales assistant,6,1.3325963306125486,False,True,True,True
+36,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fb7,61dde40a527776b760a85f9f,GBR,1012,a.radic@skilllab.io,specialized seller,0,1.2824761121905415,True,True,True,True
+37,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fb7,61dde40a527776b760a85f9f,GBR,1111,a.radic@skilllab.io,sales support assistant,3,1.3148776576218633,True,True,True,True
+38,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fb7,61dde40a527776b760a85f9f,GBR,1864,a.radic@skilllab.io,sales assistant,6,1.3314624336846133,False,True,True,True
+39,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fb8,61dde40a527776b760a85f9f,GBR,1565,a.radic@skilllab.io,logistics and distribution manager,3000,2.0,False,False,False,False
+40,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fb9,61dde40a527776b760a85f9f,GBR,1864,a.radic@skilllab.io,sales assistant,23,1.3869643130893001,False,False,False,True
+41,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fba,61dde40a527776b760a85f9f,GBR,141,a.radic@skilllab.io,shop assistant,3000,2.0,False,False,False,False
+42,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fba,61dde40a527776b760a85f9f,GBR,1864,a.radic@skilllab.io,sales assistant,3000,2.0,False,False,False,False
+43,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fbb,61dde40a527776b760a85f9f,GBR,909,a.radic@skilllab.io,benefits advice worker,0,1.1741406277932867,True,True,True,True
+44,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fbc,61dde40a527776b760a85f9f,GBR,565,a.radic@skilllab.io,sales account manager,21,1.3619549773915722,False,False,False,True
+45,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fbd,61dde40a527776b760a85f9f,GBR,91,a.radic@skilllab.io,recruitment consultant,0,1.3510969484737576,True,True,True,True
+46,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fbe,61dde40a527776b760a85f9f,GBR,2492,a.radic@skilllab.io,human resources officer,0,1.297412568795687,True,True,True,True
+47,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fbf,61dde40a527776b760a85f9f,GBR,2492,a.radic@skilllab.io,human resources officer,0,1.3502552871879125,True,True,True,True
+48,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fc0,61dde40a527776b760a85f9f,GBR,819,a.radic@skilllab.io,cargo vehicle driver,3000,2.0,False,False,False,False
+49,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fc1,61dde40a527776b760a85f9f,GBR,154,a.radic@skilllab.io,delivery driver,0,1.3203490690145512,True,True,True,True
+50,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fc1,61dde40a527776b760a85f9f,GBR,819,a.radic@skilllab.io,cargo vehicle driver,4,1.3658312251764853,True,True,True,True
+51,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fc2,61dde40a527776b760a85f9f,GBR,2260,a.radic@skilllab.io,warehouse worker,1,1.2235798699783889,True,True,True,True
+52,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fc3,61dde40a527776b760a85f9f,GBR,2260,a.radic@skilllab.io,warehouse worker,2,1.2625102407059625,True,True,True,True
+53,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fc4,61dde40a527776b760a85f9f,GBR,819,a.radic@skilllab.io,cargo vehicle driver,0,1.2994516540344057,True,True,True,True
+54,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fc5,61dde40a527776b760a85f9f,GBR,819,a.radic@skilllab.io,cargo vehicle driver,0,1.3067752777646404,True,True,True,True
+55,8347,61dda193a33565ec1ce31aa7,,61dde40d527776b760a85fc6,61dde40a527776b760a85f9f,GBR,574,a.radic@skilllab.io,warehouse manager,0,1.2546189422175158,True,True,True,True
+56,8347,61deb128a33565ec1ce31aea,,61dde42d527776b760a860ce,61dde42a527776b760a860cd,DEU,2324,c.bretgeld@skilllab.io,Web-Designer/Web-Designerin,0,1.2563239216239186,True,True,True,True
+57,8347,61deb128a33565ec1ce31aea,,61dde42d527776b760a860ce,61dde42a527776b760a860cd,DEU,1876,c.bretgeld@skilllab.io,IT-Innovationsmanager/IT-Innovationsmanagerin,34,1.4047861640842867,False,False,False,True
+58,8347,61deb128a33565ec1ce31aea,,61dde42d527776b760a860ce,61dde42a527776b760a860cd,DEU,1974,c.bretgeld@skilllab.io,IT-Systemanalytiker/IT-Systemanalytikerin,37,1.4049682033270072,False,False,False,True
+59,8347,61deb128a33565ec1ce31aea,,61dde42d527776b760a860ce,61dde42a527776b760a860cd,DEU,1990,c.bretgeld@skilllab.io,IT-Systementwickler/IT-Systementwicklerin,44,1.4056957812970892,False,False,False,True
+60,8347,61deb128a33565ec1ce31aea,,61dde42d527776b760a860cf,61dde42a527776b760a860cd,DEU,1625,c.bretgeld@skilllab.io,Gesundheits- und Krankenpfleger/Gesundheits- und Krankenschwester,0,1.3272834975992913,True,True,True,True
+61,8347,61deb128a33565ec1ce31aea,,61dde42d527776b760a860cf,61dde42a527776b760a860cd,DEU,1603,c.bretgeld@skilllab.io,Koordinator im Bereich der ambulanten Pflege und Betreuung/Koordinatorin im Bereich der ambulanten Pflege und Betreuung,6,1.3848487948707418,False,True,True,True
+62,8347,61dd9b0da33565ec1ce31aa0,,61dde42d527776b760a860d0,61dde42a527776b760a860cd,DEU,1153,r.martens@skilllab.io,Unternehmensanalyst/Unternehmensanalystin,3000,2.0,False,False,False,False
+63,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860d1,61dde42a527776b760a860cd,DEU,1685,s.schmid+data@skilllab.io,Architekt/Architektin,0,1.2890340879397748,True,True,True,True
+64,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860d1,61dde42a527776b760a860cd,DEU,2532,s.schmid+data@skilllab.io,Bauingenieur/Bauingenieurin,1,1.2920513177254689,True,True,True,True
+65,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860d1,61dde42a527776b760a860cd,DEU,513,s.schmid+data@skilllab.io,Bauingenieur Gebäudetechnik/Bauingenieurin Gebäudetechnik,2,1.3287870625321183,True,True,True,True
+66,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860d2,61dde42a527776b760a860cd,DEU,1100,s.schmid+data@skilllab.io,Chemie- und Pharmatechnologe/Chemie- und Pharmatechnologin,2,1.3752022556048569,True,True,True,True
+67,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860d3,61dde42a527776b760a860cd,DEU,2324,s.schmid+data@skilllab.io,Web-Designer/Web-Designerin,0,1.1521365014998013,True,True,True,True
+68,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860d3,61dde42a527776b760a860cd,DEU,1979,s.schmid+data@skilllab.io,Web-Content-Manager/Web-Content-Managerin,1,1.2491064761270567,True,True,True,True
+69,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860d4,61dde42a527776b760a860cd,DEU,1851,s.schmid+data@skilllab.io,Elektrotechniker/Elektrotechnikerin,0,1.1933230408718083,True,True,True,True
+70,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860d5,61dde42a527776b760a860cd,DEU,1215,s.schmid+data@skilllab.io,Kunststoffingenieur/Kunststoffingenieurin,0,1.2924567229273676,True,True,True,True
+71,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860d5,61dde42a527776b760a860cd,DEU,826,s.schmid+data@skilllab.io,Produktionsleiter Kunststoff und Kautschuk/Produktionsleiterin Kunststoff und Kautschuk,2,1.3372858258553977,True,True,True,True
+72,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860d6,61dde42a527776b760a860cd,DEU,2492,s.schmid+data@skilllab.io,Personalberater/Personalberaterin,0,1.3437572792588488,True,True,True,True
+73,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860d8,61dde42a527776b760a860cd,DEU,1864,s.schmid+data@skilllab.io,Verkäufer/Verkäuferin,0,1.3021695709454535,True,True,True,True
+74,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860d9,61dde42a527776b760a860cd,DEU,2315,s.schmid+data@skilllab.io,Buchhalter/Buchhalterin,0,1.2671520564229566,True,True,True,True
+75,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860da,61dde42a527776b760a860cd,DEU,2079,s.schmid+data@skilllab.io,Baumaschinenmechatroniker/Baumaschinenmechatronikerin,0,1.2526511424296727,True,True,True,True
+76,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860de,61dde42a527776b760a860cd,DEU,1979,s.schmid+data@skilllab.io,Web-Content-Manager/Web-Content-Managerin,0,1.181367305991599,True,True,True,True
+77,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860e0,61dde42a527776b760a860cd,DEU,291,s.schmid+data@skilllab.io,Hauswart/Hauswartin,2,1.3767496112705915,True,True,True,True
+78,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860e2,61dde42a527776b760a860cd,DEU,1475,s.schmid+data@skilllab.io,Schweißer/Schweißerin,0,1.171487300837338,True,True,True,True
+79,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860e3,61dde42a527776b760a860cd,DEU,1100,s.schmid+data@skilllab.io,Chemie- und Pharmatechnologe/Chemie- und Pharmatechnologin,1,1.3411345847776315,True,True,True,True
+80,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860e4,61dde42a527776b760a860cd,DEU,2112,s.schmid+data@skilllab.io,Back-Office-Mitarbeiter/Back-Office-Mitarbeiterin,0,1.377138655565664,True,True,True,True
+81,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860e4,61dde42a527776b760a860cd,DEU,482,s.schmid+data@skilllab.io,Middle-Office-Mitarbeiter/Middle-Office-Mitarbeiterin,1,1.3771598332304995,True,True,True,True
+82,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860e5,61dde42a527776b760a860cd,DEU,2788,s.schmid+data@skilllab.io,Softwareentwickler/Softwareentwicklerin,0,1.271295885528446,True,True,True,True
+83,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860e6,61dde42a527776b760a860cd,DEU,2544,s.schmid+data@skilllab.io,Personalsachbearbeiter/Personalsachbearbeiterin,4,1.3507161872133069,True,True,True,True
+84,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860e7,61dde42a527776b760a860cd,DEU,2376,s.schmid+data@skilllab.io,Assistent für den Bereich Supply-Chain-Management/Assistentin für den Bereich Supply-Chain-Management,0,1.359584390562459,True,True,True,True
+85,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860e7,61dde42a527776b760a860cd,DEU,2018,s.schmid+data@skilllab.io,Supply-Chain-Manager/Supply-Chain-Managerin,1,1.3605606425635706,True,True,True,True
+86,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860e7,61dde42a527776b760a860cd,DEU,979,s.schmid+data@skilllab.io,Logistik-Analyst/Logistik-Analystin,4,1.3718872437967855,True,True,True,True
+87,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860e8,61dde42a527776b760a860cd,DEU,2112,s.schmid+data@skilllab.io,Back-Office-Mitarbeiter/Back-Office-Mitarbeiterin,8,1.36110719137579,False,True,True,True
+88,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860e9,61dde42a527776b760a860cd,DEU,2481,s.schmid+data@skilllab.io,Pharmatechnologe/Pharmatechnologin,0,1.3357675801688844,True,True,True,True
+89,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860e9,61dde42a527776b760a860cd,DEU,1100,s.schmid+data@skilllab.io,Chemie- und Pharmatechnologe/Chemie- und Pharmatechnologin,1,1.3393942752718648,True,True,True,True
+90,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860ea,61dde42a527776b760a860cd,DEU,1365,s.schmid+data@skilllab.io,Customer Relationship Manager/Customer Relationship Managerin,0,1.1495503656803339,True,True,True,True
+91,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860ea,61dde42a527776b760a860cd,DEU,1875,s.schmid+data@skilllab.io,Kundenservice-Manager/Kundenservice-Managerin,1,1.261344723440793,True,True,True,True
+92,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860ea,61dde42a527776b760a860cd,DEU,2018,s.schmid+data@skilllab.io,Supply-Chain-Manager/Supply-Chain-Managerin,2,1.3524149956329843,True,True,True,True
+93,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860ec,61dde42a527776b760a860cd,DEU,1875,s.schmid+data@skilllab.io,Kundenservice-Manager/Kundenservice-Managerin,1,1.2522720239834233,True,True,True,True
+94,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860ed,61dde42a527776b760a860cd,DEU,2737,s.schmid+data@skilllab.io,Bediener von Kunststoff-Formteilpressen/Bedienerin von Kunststoff-Formteilpressen,3,1.387276783098679,True,True,True,True
+95,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860ef,61dde42a527776b760a860cd,DEU,2247,s.schmid+data@skilllab.io,IT-Consultant für Systemintegration,0,1.3088351496720898,True,True,True,True
+96,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860ef,61dde42a527776b760a860cd,DEU,2101,s.schmid+data@skilllab.io,IKT-Berater/IKT-Beraterin,2,1.336782639955204,True,True,True,True
+97,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860f0,61dde42a527776b760a860cd,DEU,2626,s.schmid+data@skilllab.io,Tischler/Tischlerin,0,1.2440254543517841,True,True,True,True
+98,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860f1,61dde42a527776b760a860cd,DEU,2492,s.schmid+data@skilllab.io,Personalberater/Personalberaterin,0,1.249552790069384,True,True,True,True
+99,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860f3,61dde42a527776b760a860cd,DEU,2402,s.schmid+data@skilllab.io,Referent/Referentin,0,1.317999579653296,True,True,True,True
+100,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860f3,61dde42a527776b760a860cd,DEU,2149,s.schmid+data@skilllab.io,Referent für Umweltpolitik/Referentin für Umweltpolitik,13,1.375489486486451,False,False,True,True
+101,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860f3,61dde42a527776b760a860cd,DEU,432,s.schmid+data@skilllab.io,Consultant im Bereich Energie,21,1.3927568505793235,False,False,False,True
+102,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860f4,61dde42a527776b760a860cd,DEU,2626,s.schmid+data@skilllab.io,Tischler/Tischlerin,0,1.259802542377243,True,True,True,True
+103,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860f5,61dde42a527776b760a860cd,DEU,2626,s.schmid+data@skilllab.io,Tischler/Tischlerin,0,1.2440254543517841,True,True,True,True
+104,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860f7,61dde42a527776b760a860cd,DEU,482,s.schmid+data@skilllab.io,Middle-Office-Mitarbeiter/Middle-Office-Mitarbeiterin,1,1.3719594379301996,True,True,True,True
+105,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860f7,61dde42a527776b760a860cd,DEU,2112,s.schmid+data@skilllab.io,Back-Office-Mitarbeiter/Back-Office-Mitarbeiterin,2,1.3726742796002076,True,True,True,True
+106,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860f8,61dde42a527776b760a860cd,DEU,1825,s.schmid+data@skilllab.io,Mechaniker für Reifen- und Vulkanisationstechnik/Mechanikerin für Reifen- und Vulkanisationstechnik,0,1.3224896330384464,True,True,True,True
+107,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860fa,61dde42a527776b760a860cd,DEU,1625,s.schmid+data@skilllab.io,Gesundheits- und Krankenpfleger/Gesundheits- und Krankenschwester,0,1.3282828282309518,True,True,True,True
+108,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860fb,61dde42a527776b760a860cd,DEU,2626,s.schmid+data@skilllab.io,Tischler/Tischlerin,0,1.2440254543517841,True,True,True,True
+109,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860fc,61dde42a527776b760a860cd,DEU,2626,s.schmid+data@skilllab.io,Tischler/Tischlerin,0,1.2440254543517841,True,True,True,True
+110,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860fe,61dde42a527776b760a860cd,DEU,2626,s.schmid+data@skilllab.io,Tischler/Tischlerin,0,1.2440254543517841,True,True,True,True
+111,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a860ff,61dde42a527776b760a860cd,DEU,2626,s.schmid+data@skilllab.io,Tischler/Tischlerin,0,1.2440254543517841,True,True,True,True
+112,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a86100,61dde42a527776b760a860cd,DEU,2626,s.schmid+data@skilllab.io,Tischler/Tischlerin,0,1.2440254543517841,True,True,True,True
+113,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a86101,61dde42a527776b760a860cd,DEU,2788,s.schmid+data@skilllab.io,Softwareentwickler/Softwareentwicklerin,1,1.3510900686296654,True,True,True,True
+114,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a86101,61dde42a527776b760a860cd,DEU,2240,s.schmid+data@skilllab.io,IT-Anwendungsentwickler/IT-Anwendungsentwicklerin,2,1.3564905281046877,True,True,True,True
+115,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a86101,61dde42a527776b760a860cd,DEU,1990,s.schmid+data@skilllab.io,IT-Systementwickler/IT-Systementwicklerin,4,1.3756692009567766,True,True,True,True
+116,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a86102,61dde42a527776b760a860cd,DEU,979,s.schmid+data@skilllab.io,Logistik-Analyst/Logistik-Analystin,0,1.1653953110625774,True,True,True,True
+117,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a86103,61dde42a527776b760a860cd,DEU,2626,s.schmid+data@skilllab.io,Tischler/Tischlerin,0,1.2472301361497515,True,True,True,True
+118,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a86104,61dde42a527776b760a860cd,DEU,1329,s.schmid+data@skilllab.io,Biogas-Techniker/Biogas-Technikerin,13,1.374206652197244,False,False,True,True
+119,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a86104,61dde42a527776b760a860cd,DEU,2779,s.schmid+data@skilllab.io,Steuerer von Gasanlagen/Steuererin von Gasanlagen,21,1.3821494372778091,False,False,False,True
+120,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a86105,61dde42a527776b760a860cd,DEU,2626,s.schmid+data@skilllab.io,Tischler/Tischlerin,0,1.211847431144105,True,True,True,True
+121,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a86106,61dde42a527776b760a860cd,DEU,2626,s.schmid+data@skilllab.io,Tischler/Tischlerin,0,1.2440254543517841,True,True,True,True
+122,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a86107,61dde42a527776b760a860cd,DEU,2756,s.schmid+data@skilllab.io,Gabelstaplerfahrer/Gabelstaplerfahrerin,0,1.2093844148569317,True,True,True,True
+123,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a86108,61dde42a527776b760a860cd,DEU,2626,s.schmid+data@skilllab.io,Tischler/Tischlerin,0,1.2472301361497515,True,True,True,True
+124,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a86109,61dde42a527776b760a860cd,DEU,327,s.schmid+data@skilllab.io,Bäcker/Bäckerin,0,1.1903715665040604,True,True,True,True
+125,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a8610a,61dde42a527776b760a860cd,DEU,2626,s.schmid+data@skilllab.io,Tischler/Tischlerin,0,1.2440254543517841,True,True,True,True
+126,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a8610b,61dde42a527776b760a860cd,DEU,248,s.schmid+data@skilllab.io,Kundenbetreuer/Kundenbetreuerin,1,1.2837635568910455,True,True,True,True
+127,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a8610d,61dde42a527776b760a860cd,DEU,1883,s.schmid+data@skilllab.io,IT-Systemadministrator/IT-Systemadministratorin,2,1.3393138946379133,True,True,True,True
+128,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a8610e,61dde42a527776b760a860cd,DEU,1851,s.schmid+data@skilllab.io,Elektrotechniker/Elektrotechnikerin,3,1.3290322953683507,True,True,True,True
+129,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a8610f,61dde42a527776b760a860cd,DEU,2626,s.schmid+data@skilllab.io,Tischler/Tischlerin,0,1.252459651600386,True,True,True,True
+130,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a86110,61dde42a527776b760a860cd,DEU,2626,s.schmid+data@skilllab.io,Tischler/Tischlerin,0,1.2440254543517841,True,True,True,True
+131,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a86111,61dde42a527776b760a860cd,DEU,1271,s.schmid+data@skilllab.io,Fachverkäufer für Kraftfahrzeuge/Fachverkäuferin für Kraftfahrzeuge,8,1.3766215243562068,False,True,True,True
+132,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a86111,61dde42a527776b760a860cd,DEU,2390,s.schmid+data@skilllab.io,Fachkraft im Bereich Vertrieb,12,1.3791031641839169,False,False,True,True
+133,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a86112,61dde42a527776b760a860cd,DEU,2626,s.schmid+data@skilllab.io,Tischler/Tischlerin,0,1.2440254543517841,True,True,True,True
+134,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a86114,61dde42a527776b760a860cd,DEU,1863,s.schmid+data@skilllab.io,Facharzt/Fachärztin,0,1.2573421093488648,True,True,True,True
+135,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a86116,61dde42a527776b760a860cd,DEU,2788,s.schmid+data@skilllab.io,Softwareentwickler/Softwareentwicklerin,3,1.3697064837734367,True,True,True,True
+136,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a86117,61dde42a527776b760a860cd,DEU,1863,s.schmid+data@skilllab.io,Facharzt/Fachärztin,0,1.2573421093488648,True,True,True,True
+137,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a86118,61dde42a527776b760a860cd,DEU,504,s.schmid+data@skilllab.io,Einkäufer/Einkäuferin,0,1.294716767280286,True,True,True,True
+138,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a86119,61dde42a527776b760a860cd,DEU,737,s.schmid+data@skilllab.io,"Anlagenmechaniker Sanitär-, Heizungs- und Klimatechnik/Anlagenmechanikerin Sanitär-, Heizungs- und Klimatechnik",1,1.2866687344700969,True,True,True,True
+139,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a8611a,61dde42a527776b760a860cd,DEU,2626,s.schmid+data@skilllab.io,Tischler/Tischlerin,0,1.2440254543517841,True,True,True,True
+140,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a8611b,61dde42a527776b760a860cd,DEU,1685,s.schmid+data@skilllab.io,Architekt/Architektin,0,1.3237417938705416,True,True,True,True
+141,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a8611c,61dde42a527776b760a860cd,DEU,2626,s.schmid+data@skilllab.io,Tischler/Tischlerin,0,1.2440254543517841,True,True,True,True
+142,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a8611e,61dde42a527776b760a860cd,DEU,1863,s.schmid+data@skilllab.io,Facharzt/Fachärztin,0,1.2787152664287835,True,True,True,True
+143,8347,61dee429a33565ec1ce31b5a,,61dde42d527776b760a8611f,61dde42a527776b760a860cd,DEU,1863,s.schmid+data@skilllab.io,Facharzt/Fachärztin,0,1.3638452587596235,True,True,True,True
+144,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a861fc,61dde4cb527776b760a861fb,NLD,3843,l.weller@skilllab.io,Richting Elektro,1,1.3262874843567987,True,True,True,True
+145,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a861fc,61dde4cb527776b760a861fb,NLD,862,l.weller@skilllab.io,monteur elektrische installaties,4,1.3413272389241524,True,True,True,True
+146,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a861fd,61dde4cb527776b760a861fb,NLD,3843,l.weller@skilllab.io,Richting Elektro,1,1.3257800787484102,True,True,True,True
+147,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a861fe,61dde4cb527776b760a861fb,NLD,3843,l.weller@skilllab.io,Richting Elektro,1,1.31180214915335,True,True,True,True
+148,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a861fe,61dde4cb527776b760a861fb,NLD,320,l.weller@skilllab.io,assemblagetechnicus mechatronica,2,1.3125954030447398,True,True,True,True
+149,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a861ff,61dde4cb527776b760a861fb,NLD,2751,l.weller@skilllab.io,mechatronicus,30,1.381709277987255,False,False,False,True
+150,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a86202,61dde4cb527776b760a861fb,NLD,681,l.weller@skilllab.io,technisch tekenaar mechanica,4,1.314635953709621,True,True,True,True
+151,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a86203,61dde4cb527776b760a861fb,NLD,320,l.weller@skilllab.io,assemblagetechnicus mechatronica,2,1.3125954030447398,True,True,True,True
+152,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a86204,61dde4cb527776b760a861fb,NLD,2573,l.weller@skilllab.io,ontwerper-constructeur machines en gereedschappen,27,1.3794668445113267,False,False,False,True
+153,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a86204,61dde4cb527776b760a861fb,NLD,2212,l.weller@skilllab.io,engineer industriële automatisering,32,1.3859248760257623,False,False,False,True
+154,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a86205,61dde4cb527776b760a861fb,NLD,476,l.weller@skilllab.io,monteur industriële machines,16,1.3580908800913087,False,False,True,True
+155,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a86206,61dde4cb527776b760a861fb,NLD,862,l.weller@skilllab.io,monteur elektrische installaties,22,1.3793715844076673,False,False,False,True
+156,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a86206,61dde4cb527776b760a861fb,NLD,1117,l.weller@skilllab.io,elektromechanicus,26,1.3824520105398137,False,False,False,True
+157,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a86207,61dde4cb527776b760a861fb,NLD,2212,l.weller@skilllab.io,engineer industriële automatisering,26,1.3819984077202805,False,False,False,True
+158,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a86208,61dde4cb527776b760a861fb,NLD,2038,l.weller@skilllab.io,operator trektoren,22,1.345880479949377,False,False,False,True
+159,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a86209,61dde4cb527776b760a861fb,NLD,1726,l.weller@skilllab.io,kok,9,1.3484691112607687,False,True,True,True
+160,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a8620a,61dde4cb527776b760a861fb,NLD,3846,l.weller@skilllab.io,Richting Logistiek,2,1.2754899264484247,True,True,True,True
+161,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a8620a,61dde4cb527776b760a861fb,NLD,2352,l.weller@skilllab.io,operationeel manager,17,1.3854442061700722,False,False,True,True
+162,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a8620c,61dde4cb527776b760a861fb,NLD,248,l.weller@skilllab.io,vertegenwoordiger klantenservice,0,1.266531831363026,True,True,True,True
+163,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a86210,61dde4cb527776b760a861fb,NLD,2885,l.weller@skilllab.io,hoofd huishoudelijke dienst,7,1.3368129550687222,False,True,True,True
+164,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a86218,61dde4cb527776b760a861fb,NLD,416,l.weller@skilllab.io,financieel planner,4,1.2940783460799914,True,True,True,True
+165,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a86219,61dde4cb527776b760a861fb,NLD,1073,l.weller@skilllab.io,assemblagemedewerker kunststof,2,1.3258380885765981,True,True,True,True
+166,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a8621a,61dde4cb527776b760a861fb,NLD,3177,l.weller@skilllab.io,Buschauffeur,0,1.1976375071992191,True,True,True,True
+167,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a8621b,61dde4cb527776b760a861fb,NLD,1109,l.weller@skilllab.io,operator CNC-machine,0,1.1743878310366018,True,True,True,True
+168,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a8621c,61dde4cb527776b760a861fb,NLD,2629,l.weller@skilllab.io,directeur onderwijsinstelling,37,1.3887709331703293,False,False,False,True
+169,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a8621d,61dde4cb527776b760a861fb,NLD,3846,l.weller@skilllab.io,Richting Logistiek,4,1.3471240947099319,True,True,True,True
+170,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a8621d,61dde4cb527776b760a861fb,NLD,2376,l.weller@skilllab.io,logistiek medewerker,46,1.3813621933296063,False,False,False,True
+171,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a8621e,61dde4cb527776b760a861fb,NLD,3177,l.weller@skilllab.io,Buschauffeur,0,1.233179321000948,True,True,True,True
+172,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a8621f,61dde4cb527776b760a861fb,NLD,842,l.weller@skilllab.io,marketeer,0,1.2334497253382526,True,True,True,True
+173,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a86220,61dde4cb527776b760a861fb,NLD,3177,l.weller@skilllab.io,Buschauffeur,4,1.2989727190833102,True,True,True,True
+174,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a86221,61dde4cb527776b760a861fb,NLD,70,l.weller@skilllab.io,hoofd boekhouding,0,1.3216802337161728,True,True,True,True
+175,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a86223,61dde4cb527776b760a861fb,NLD,3177,l.weller@skilllab.io,Buschauffeur,0,1.2412797136995595,True,True,True,True
+176,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a86224,61dde4cb527776b760a861fb,NLD,3846,l.weller@skilllab.io,Richting Logistiek,0,1.3174571668013209,True,True,True,True
+177,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a86224,61dde4cb527776b760a861fb,NLD,2426,l.weller@skilllab.io,orderpicker,3,1.3270506745847095,True,True,True,True
+178,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a86225,61dde4cb527776b760a861fb,NLD,2240,l.weller@skilllab.io,ict application developer,6,1.336257603119631,False,True,True,True
+179,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a86226,61dde4cb527776b760a861fb,NLD,2021,l.weller@skilllab.io,medewerker helpdesk,20,1.3709891662634868,False,False,False,True
+180,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a86227,61dde4cb527776b760a861fb,NLD,3850,l.weller@skilllab.io,Richting Zorg,0,1.2779643118076633,True,True,True,True
+181,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a86227,61dde4cb527776b760a861fb,NLD,305,l.weller@skilllab.io,gespecialiseerd verpleegkundige,9,1.3848137418105981,False,True,True,True
+182,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a86228,61dde4cb527776b760a861fb,NLD,2021,l.weller@skilllab.io,medewerker helpdesk,12,1.3760744109019467,False,False,True,True
+183,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a8622a,61dde4cb527776b760a861fb,NLD,1255,l.weller@skilllab.io,docent hoger onderwijs,21,1.3352508996418175,False,False,False,True
+184,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a8622b,61dde4cb527776b760a861fb,NLD,672,l.weller@skilllab.io,informatiemanager,5,1.3391728485284042,False,True,True,True
+185,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a8622c,61dde4cb527776b760a861fb,NLD,1136,l.weller@skilllab.io,leerkracht voortgezet onderwijs,2,1.3038701580358276,True,True,True,True
+186,8347,61dda1f6a33565ec1ce31aa9,,61dde4ce527776b760a8622d,61dde4cb527776b760a861fb,NLD,2493,l.weller@skilllab.io,data analyst,7,1.34864456703663,False,True,True,True
+187,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866b4,61dde5aa527776b760a866b3,SAU,45,a.elhayek@skilllab.io,مهندس اتصالات / مهندسة اتصالات,0,0.9506965366994565,True,True,True,True
+188,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866b5,61dde5aa527776b760a866b3,SAU,2240,a.elhayek@skilllab.io,مطور تطبيقات تكنولوجيا المعلومات والاتصالات / مطورة تطبيقات تكنولوجيا المعلومات والاتصالات,1,1.1875364083165314,True,True,True,True
+189,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866b5,61dde5aa527776b760a866b3,SAU,827,a.elhayek@skilllab.io,مكون تطبيقات تكنولوجيا المعلومات والاتصالات / مكونة تطبيقات تكنولوجيا المعلومات والاتصالات,2,1.313086935266518,True,True,True,True
+190,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866b6,61dde5aa527776b760a866b3,SAU,1864,a.elhayek@skilllab.io,مساعد مبيعات / مساعدة مبيعات,1,1.285394306579091,True,True,True,True
+191,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866b7,61dde5aa527776b760a866b3,SAU,1974,a.elhayek@skilllab.io,محلل نظم تكنولوجيا المعلومات والاتصالات / محللة نظم تكنولوجيا المعلومات والاتصالات,0,1.2169540221689394,True,True,True,True
+192,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866ba,61dde5aa527776b760a866b3,SAU,1864,a.elhayek@skilllab.io,مساعد مبيعات / مساعدة مبيعات,0,1.1315214163385767,True,True,True,True
+193,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866bb,61dde5aa527776b760a866b3,SAU,1800,a.elhayek@skilllab.io,محامي / محامية,0,1.1835292634683685,True,True,True,True
+194,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866bb,61dde5aa527776b760a866b3,SAU,2928,a.elhayek@skilllab.io,محامي شركات / محامية شركات,2,1.252455328393598,True,True,True,True
+195,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866bc,61dde5aa527776b760a866b3,SAU,416,a.elhayek@skilllab.io,مخطط مالي / مخططة مالية,1,1.3267082849448215,True,True,True,True
+196,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866bc,61dde5aa527776b760a866b3,SAU,1701,a.elhayek@skilllab.io,محلل مالي / محللة مالية,2,1.3270842714831494,True,True,True,True
+197,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866bd,61dde5aa527776b760a866b3,SAU,2829,a.elhayek@skilllab.io,مدير الموارد البشرية / مديرة الموارد البشرية,1,1.3487391295229052,True,True,True,True
+198,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866bd,61dde5aa527776b760a866b3,SAU,2492,a.elhayek@skilllab.io,مسؤول الموارد البشرية / مسؤولة الموارد البشرية,2,1.3504623657062866,True,True,True,True
+199,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866bd,61dde5aa527776b760a866b3,SAU,2544,a.elhayek@skilllab.io,مساعد الموارد البشرية / مساعدة الموارد البشرية,3,1.3549062096318927,True,True,True,True
+200,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866be,61dde5aa527776b760a866b3,SAU,598,a.elhayek@skilllab.io,المدير المالي / المديرة المالية,2,1.3529398111899071,True,True,True,True
+201,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866be,61dde5aa527776b760a866b3,SAU,1816,a.elhayek@skilllab.io,مدير السجلات الطبية / مديرة السجلات الطبية,3,1.358570649781968,True,True,True,True
+202,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866be,61dde5aa527776b760a866b3,SAU,258,a.elhayek@skilllab.io,كاتب السجلات الطبية / كاتبة السجلات الطبية,5,1.359704893007362,False,True,True,True
+203,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866bf,61dde5aa527776b760a866b3,SAU,1864,a.elhayek@skilllab.io,مساعد مبيعات / مساعدة مبيعات,1,1.3011032673727194,True,True,True,True
+204,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866c0,61dde5aa527776b760a866b3,SAU,2574,a.elhayek@skilllab.io,مخطط الشراء / مخططة الشراء,0,1.3654149735587129,True,True,True,True
+205,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866c1,61dde5aa527776b760a866b3,SAU,332,a.elhayek@skilllab.io,أخصائي تطبيق كيميائي / أخصائية تطبيق كيميائي,0,1.1809413776025952,True,True,True,True
+206,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866c1,61dde5aa527776b760a866b3,SAU,1622,a.elhayek@skilllab.io,فني كيميائي,1,1.1979597647387676,True,True,True,True
+207,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866c1,61dde5aa527776b760a866b3,SAU,2736,a.elhayek@skilllab.io,مهندس كيميائي / مهندسة كيميائية,2,1.2603157027675915,True,True,True,True
+208,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866c1,61dde5aa527776b760a866b3,SAU,2496,a.elhayek@skilllab.io,مشغل معالجة مياه الصرف الصحي / مشغلة معالجة مياه الصرف الصحي,8,1.366128520354096,False,True,True,True
+209,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866c1,61dde5aa527776b760a866b3,SAU,1011,a.elhayek@skilllab.io,مدير محطة معالجة المياه / مديرة محطة معالجة المياه,9,1.372252632824575,False,True,True,True
+210,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866c2,61dde5aa527776b760a866b3,SAU,2516,a.elhayek@skilllab.io,مدير المطعم / مديرة المطعم,2,1.2798565344175152,True,True,True,True
+211,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866c3,61dde5aa527776b760a866b3,SAU,1980,a.elhayek@skilllab.io,مدير المبيعات / مديرة المبيعات,1,1.366824589631892,True,True,True,True
+212,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866c5,61dde5aa527776b760a866b3,SAU,850,a.elhayek@skilllab.io,مساعد تسويق / مساعدة تسويق,0,1.2339170937184836,True,True,True,True
+213,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866c5,61dde5aa527776b760a866b3,SAU,842,a.elhayek@skilllab.io,مستشار تسويق للشركات / مستشارة تسويق للشركات,1,1.2650340973500978,True,True,True,True
+214,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866c5,61dde5aa527776b760a866b3,SAU,1980,a.elhayek@skilllab.io,مدير المبيعات / مديرة المبيعات,3,1.3490422164972,True,True,True,True
+215,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866c5,61dde5aa527776b760a866b3,SAU,1382,a.elhayek@skilllab.io,معالج المبيعات / معالجة البيانات,7,1.3802450734081095,False,True,True,True
+216,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866c6,61dde5aa527776b760a866b3,SAU,1864,a.elhayek@skilllab.io,مساعد مبيعات / مساعدة مبيعات,1,1.3231103762824759,True,True,True,True
+217,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866c6,61dde5aa527776b760a866b3,SAU,1330,a.elhayek@skilllab.io,مشرف مصنع الورق / مشرفة مصنع الورق,8,1.3439370444135263,False,True,True,True
+218,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866c7,61dde5aa527776b760a866b3,SAU,2749,a.elhayek@skilllab.io,محاسب / محاسبة,0,1.215720555613215,True,True,True,True
+219,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866c8,61dde5aa527776b760a866b3,SAU,1851,a.elhayek@skilllab.io,فني الهندسة الكهربائية,3,1.356722330103994,True,True,True,True
+220,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866c9,61dde5aa527776b760a866b3,SAU,2756,a.elhayek@skilllab.io,مشغل شاحنة رافعة / مشغلة شاحنة رافعة,1,1.2554243881626064,True,True,True,True
+221,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866c9,61dde5aa527776b760a866b3,SAU,368,a.elhayek@skilllab.io,مشغل رافعة مصنع الإنتاج / مشغلة رافعة مصنع الإنتاج,3,1.2761516842916953,True,True,True,True
+222,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866cc,61dde5aa527776b760a866b3,SAU,1266,a.elhayek@skilllab.io,مصمم جرافيك / مصممة جرافيك,0,0.8790863594787383,True,True,True,True
+223,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866ce,61dde5aa527776b760a866b3,SAU,850,a.elhayek@skilllab.io,مساعد تسويق / مساعدة تسويق,0,1.2578432386113931,True,True,True,True
+224,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866ce,61dde5aa527776b760a866b3,SAU,2282,a.elhayek@skilllab.io,مسؤول علاقات عامة / مسؤولة علاقات عامة,2,1.332127133432009,True,True,True,True
+225,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866d1,61dde5aa527776b760a866b3,SAU,1336,a.elhayek@skilllab.io,مهندس تصميم / مهندسة تصميم,0,0.9773935151263616,True,True,True,True
+226,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866d2,61dde5aa527776b760a866b3,SAU,2116,a.elhayek@skilllab.io,فني الهندسة الميكانيكية,0,1.3350190629944192,True,True,True,True
+227,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866d3,61dde5aa527776b760a866b3,SAU,1864,a.elhayek@skilllab.io,مساعد مبيعات / مساعدة مبيعات,0,1.2285793687356452,True,True,True,True
+228,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866d3,61dde5aa527776b760a866b3,SAU,1601,a.elhayek@skilllab.io,مهندس مبيعات / مهندسة مبيعات,1,1.2324012289587187,True,True,True,True
+229,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866d4,61dde5aa527776b760a866b3,SAU,1864,a.elhayek@skilllab.io,مساعد مبيعات / مساعدة مبيعات,1,1.3435393525036274,True,True,True,True
+230,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866d4,61dde5aa527776b760a866b3,SAU,1601,a.elhayek@skilllab.io,مهندس مبيعات / مهندسة مبيعات,2,1.3446644227930655,True,True,True,True
+231,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866d5,61dde5aa527776b760a866b3,SAU,406,a.elhayek@skilllab.io,مشغل فندق المبيت والفطور / مشغلة فندق المبيت والفطور,0,1.285900513094502,True,True,True,True
+232,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866d6,61dde5aa527776b760a866b3,SAU,1864,a.elhayek@skilllab.io,مساعد مبيعات / مساعدة مبيعات,1,1.2843353947485543,True,True,True,True
+233,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866d6,61dde5aa527776b760a866b3,SAU,1601,a.elhayek@skilllab.io,مهندس مبيعات / مهندسة مبيعات,2,1.2868083259379612,True,True,True,True
+234,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866d8,61dde5aa527776b760a866b3,SAU,1864,a.elhayek@skilllab.io,مساعد مبيعات / مساعدة مبيعات,1,1.3229727758366943,True,True,True,True
+235,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866d8,61dde5aa527776b760a866b3,SAU,1601,a.elhayek@skilllab.io,مهندس مبيعات / مهندسة مبيعات,2,1.3235539313281022,True,True,True,True
+236,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866d9,61dde5aa527776b760a866b3,SAU,1864,a.elhayek@skilllab.io,مساعد مبيعات / مساعدة مبيعات,1,1.3010507390042672,True,True,True,True
+237,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866d9,61dde5aa527776b760a866b3,SAU,1601,a.elhayek@skilllab.io,مهندس مبيعات / مهندسة مبيعات,2,1.3018757086691224,True,True,True,True
+238,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866da,61dde5aa527776b760a866b3,SAU,1864,a.elhayek@skilllab.io,مساعد مبيعات / مساعدة مبيعات,0,1.2555140613754998,True,True,True,True
+239,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866da,61dde5aa527776b760a866b3,SAU,1601,a.elhayek@skilllab.io,مهندس مبيعات / مهندسة مبيعات,1,1.2566380558442938,True,True,True,True
+240,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866da,61dde5aa527776b760a866b3,SAU,1980,a.elhayek@skilllab.io,مدير المبيعات / مديرة المبيعات,2,1.2676313893939029,True,True,True,True
+241,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866db,61dde5aa527776b760a866b3,SAU,1337,a.elhayek@skilllab.io,مدير التسويق / مديرة التسويق,9,1.38982199112248,False,True,True,True
+242,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866dc,61dde5aa527776b760a866b3,SAU,1980,a.elhayek@skilllab.io,مدير المبيعات / مديرة المبيعات,9,1.347066281618098,False,True,True,True
+243,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866dd,61dde5aa527776b760a866b3,SAU,1980,a.elhayek@skilllab.io,مدير المبيعات / مديرة المبيعات,0,1.2815233720710855,True,True,True,True
+244,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866dd,61dde5aa527776b760a866b3,SAU,565,a.elhayek@skilllab.io,مدير حساب المبيعات / مديرة حساب المبيعات,3,1.3290309087853576,True,True,True,True
+245,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866de,61dde5aa527776b760a866b3,SAU,2749,a.elhayek@skilllab.io,محاسب / محاسبة,0,1.287019683493337,True,True,True,True
+246,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866df,61dde5aa527776b760a866b3,SAU,99,a.elhayek@skilllab.io,مدير الإدارة العامة / مديرة الإدارة العامة,5,1.3800805644852037,False,True,True,True
+247,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866df,61dde5aa527776b760a866b3,SAU,2352,a.elhayek@skilllab.io,مدير العمليات / مديرة العمليات,8,1.3852111878157212,False,True,True,True
+248,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866e0,61dde5aa527776b760a866b3,SAU,2749,a.elhayek@skilllab.io,محاسب / محاسبة,0,1.2605875863150027,True,True,True,True
+249,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866e2,61dde5aa527776b760a866b3,SAU,1864,a.elhayek@skilllab.io,مساعد مبيعات / مساعدة مبيعات,3,1.282905519624662,True,True,True,True
+250,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866e2,61dde5aa527776b760a866b3,SAU,1601,a.elhayek@skilllab.io,مهندس مبيعات / مهندسة مبيعات,4,1.2862341015936007,True,True,True,True
+251,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866e3,61dde5aa527776b760a866b3,SAU,2749,a.elhayek@skilllab.io,محاسب / محاسبة,0,1.2596684548977448,True,True,True,True
+252,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866e3,61dde5aa527776b760a866b3,SAU,2315,a.elhayek@skilllab.io,مسؤول الحسابات / مسؤولة الحسابات,2,1.3630372768549104,True,True,True,True
+253,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866e3,61dde5aa527776b760a866b3,SAU,598,a.elhayek@skilllab.io,المدير المالي / المديرة المالية,4,1.3688024073757763,True,True,True,True
+254,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866e4,61dde5aa527776b760a866b3,SAU,2829,a.elhayek@skilllab.io,مدير الموارد البشرية / مديرة الموارد البشرية,0,1.0833591059597425,True,True,True,True
+255,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866e4,61dde5aa527776b760a866b3,SAU,2492,a.elhayek@skilllab.io,مسؤول الموارد البشرية / مسؤولة الموارد البشرية,1,1.1964403587292374,True,True,True,True
+256,8347,61dda167a33565ec1ce31aa6,,61dde5ad527776b760a866e5,61dde5aa527776b760a866b3,SAU,461,a.elhayek@skilllab.io,أخصائي في علم الوظائف / أخصائية في علم الوظائف,0,1.346327153275945,True,True,True,True
+257,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a866e8,61dde5aa527776b760a866b3,SAU,673,a.elhayek@skilllab.io,مدير مشتريات / مديرة مشتريات,3,1.3818166885993672,True,True,True,True
+258,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a866e9,61dde5aa527776b760a866b3,SAU,2829,a.elhayek@skilllab.io,مدير الموارد البشرية / مديرة الموارد البشرية,0,1.2713500318295692,True,True,True,True
+259,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a866e9,61dde5aa527776b760a866b3,SAU,2492,a.elhayek@skilllab.io,مسؤول الموارد البشرية / مسؤولة الموارد البشرية,1,1.3114922016924584,True,True,True,True
+260,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a866e9,61dde5aa527776b760a866b3,SAU,2544,a.elhayek@skilllab.io,مساعد الموارد البشرية / مساعدة الموارد البشرية,2,1.315871896155433,True,True,True,True
+261,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a866ea,61dde5aa527776b760a866b3,SAU,2845,a.elhayek@skilllab.io,موظف الاستقبال / موظفة الاستقبال,4,1.3347869352934114,True,True,True,True
+262,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a866eb,61dde5aa527776b760a866b3,SAU,1012,a.elhayek@skilllab.io,بائع متخصص / بائعة متخصصة,0,1.2589601612805692,True,True,True,True
+263,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a866eb,61dde5aa527776b760a866b3,SAU,1312,a.elhayek@skilllab.io,بائع الأدوات البصرية / بائعة الأدوات البصرية,6,1.3046780695263573,False,True,True,True
+264,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a866ed,61dde5aa527776b760a866b3,SAU,673,a.elhayek@skilllab.io,مدير مشتريات / مديرة مشتريات,0,1.1747864176713039,True,True,True,True
+265,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a866ed,61dde5aa527776b760a866b3,SAU,2574,a.elhayek@skilllab.io,مخطط الشراء / مخططة الشراء,2,1.383613369091044,True,True,True,True
+266,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a866ef,61dde5aa527776b760a866b3,SAU,2916,a.elhayek@skilllab.io,مستشار مبيعات الطاقة الشمسية / مستشارة مبيعات الطاقة الشمسية,3,1.2713754876158683,True,True,True,True
+267,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a866f0,61dde5aa527776b760a866b3,SAU,645,a.elhayek@skilllab.io,مسوق على الإنترنت / مسوقة على الإنترنت,0,1.2696534293597188,True,True,True,True
+268,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a866f1,61dde5aa527776b760a866b3,SAU,2845,a.elhayek@skilllab.io,موظف الاستقبال / موظفة الاستقبال,6,1.3459669251893545,False,True,True,True
+269,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a866f3,61dde5aa527776b760a866b3,SAU,1266,a.elhayek@skilllab.io,مصمم جرافيك / مصممة جرافيك,9,1.3574916395023557,False,True,True,True
+270,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a866f5,61dde5aa527776b760a866b3,SAU,1883,a.elhayek@skilllab.io,مدير نظم تكنولوجيا المعلومات والاتصالات / مديرة نظم تكنولوجيا المعلومات والاتصالات,9,1.3355751114755832,False,True,True,True
+271,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a866f6,61dde5aa527776b760a866b3,SAU,1915,a.elhayek@skilllab.io,مسؤول سياسات سوق العمل / مسؤولة سياسات سوق العمل,4,1.2653495351339104,True,True,True,True
+272,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a866f8,61dde5aa527776b760a866b3,SAU,2845,a.elhayek@skilllab.io,موظف الاستقبال / موظفة الاستقبال,4,1.3438015482045016,True,True,True,True
+273,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a866f9,61dde5aa527776b760a866b3,SAU,1012,a.elhayek@skilllab.io,بائع متخصص / بائعة متخصصة,0,1.279598595117182,True,True,True,True
+274,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a866f9,61dde5aa527776b760a866b3,SAU,2029,a.elhayek@skilllab.io,مندوب مبيعات طبية / مندوبة مبيعات طبية,7,1.3112052735688584,False,True,True,True
+275,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a866fa,61dde5aa527776b760a866b3,SAU,2829,a.elhayek@skilllab.io,مدير الموارد البشرية / مديرة الموارد البشرية,3,1.380614866343153,True,True,True,True
+276,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a866fa,61dde5aa527776b760a866b3,SAU,2492,a.elhayek@skilllab.io,مسؤول الموارد البشرية / مسؤولة الموارد البشرية,5,1.3837006607413416,False,True,True,True
+277,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a866fa,61dde5aa527776b760a866b3,SAU,2544,a.elhayek@skilllab.io,مساعد الموارد البشرية / مساعدة الموارد البشرية,7,1.3857592048454859,False,True,True,True
+278,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a866fb,61dde5aa527776b760a866b3,SAU,850,a.elhayek@skilllab.io,مساعد تسويق / مساعدة تسويق,0,1.2131559444342443,True,True,True,True
+279,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a866fc,61dde5aa527776b760a866b3,SAU,850,a.elhayek@skilllab.io,مساعد تسويق / مساعدة تسويق,0,1.2724152819054821,True,True,True,True
+280,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a866fc,61dde5aa527776b760a866b3,SAU,1980,a.elhayek@skilllab.io,مدير المبيعات / مديرة المبيعات,2,1.3246436318329398,True,True,True,True
+281,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a866fe,61dde5aa527776b760a866b3,SAU,603,a.elhayek@skilllab.io,مستشار قانوني / مستشارة قانونية,0,1.123329116742423,True,True,True,True
+282,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a866ff,61dde5aa527776b760a866b3,SAU,2749,a.elhayek@skilllab.io,محاسب / محاسبة,0,1.2529263486231672,True,True,True,True
+283,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a866ff,61dde5aa527776b760a866b3,SAU,1457,a.elhayek@skilllab.io,محاسب مالي عام / محاسبة مالية عامة,1,1.3192622624909929,True,True,True,True
+284,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86700,61dde5aa527776b760a866b3,SAU,1395,a.elhayek@skilllab.io,مصمم داخلي / مصممة داخلية,2,1.3623672837808916,True,True,True,True
+285,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86701,61dde5aa527776b760a866b3,SAU,1864,a.elhayek@skilllab.io,مساعد مبيعات / مساعدة مبيعات,0,1.240891490388546,True,True,True,True
+286,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86702,61dde5aa527776b760a866b3,SAU,1012,a.elhayek@skilllab.io,بائع متخصص / بائعة متخصصة,0,1.2605995432511856,True,True,True,True
+287,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86703,61dde5aa527776b760a866b3,SAU,1864,a.elhayek@skilllab.io,مساعد مبيعات / مساعدة مبيعات,1,1.2935104848684125,True,True,True,True
+288,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86704,61dde5aa527776b760a866b3,SAU,2749,a.elhayek@skilllab.io,محاسب / محاسبة,0,1.2549033698558723,True,True,True,True
+289,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86704,61dde5aa527776b760a866b3,SAU,1457,a.elhayek@skilllab.io,محاسب مالي عام / محاسبة مالية عامة,1,1.2632270143964595,True,True,True,True
+290,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86705,61dde5aa527776b760a866b3,SAU,1012,a.elhayek@skilllab.io,بائع متخصص / بائعة متخصصة,1,1.3172731042354615,True,True,True,True
+291,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86706,61dde5aa527776b760a866b3,SAU,2315,a.elhayek@skilllab.io,مسؤول الحسابات / مسؤولة الحسابات,2,1.2970447727087993,True,True,True,True
+292,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86707,61dde5aa527776b760a866b3,SAU,567,a.elhayek@skilllab.io,مطور تطبيقات الجوال / مطورة تطبيقات الجوال,0,1.2011379401311522,True,True,True,True
+293,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86707,61dde5aa527776b760a866b3,SAU,2240,a.elhayek@skilllab.io,مطور تطبيقات تكنولوجيا المعلومات والاتصالات / مطورة تطبيقات تكنولوجيا المعلومات والاتصالات,1,1.23928530126217,True,True,True,True
+294,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86707,61dde5aa527776b760a866b3,SAU,827,a.elhayek@skilllab.io,مكون تطبيقات تكنولوجيا المعلومات والاتصالات / مكونة تطبيقات تكنولوجيا المعلومات والاتصالات,2,1.2497178877728592,True,True,True,True
+295,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86707,61dde5aa527776b760a866b3,SAU,1054,a.elhayek@skilllab.io,مدير تطوير الأعمال في مجال تكنولوجيا المعلومات والاتصالات / مديرة تطوير الأعمال في مجال تكنولوجيا المعلومات والاتصالات,8,1.394588688005179,False,True,True,True
+296,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86708,61dde5aa527776b760a866b3,SAU,1864,a.elhayek@skilllab.io,مساعد مبيعات / مساعدة مبيعات,0,1.3161241717262129,True,True,True,True
+297,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8670a,61dde5aa527776b760a866b3,SAU,248,a.elhayek@skilllab.io,ممثل خدمة العملاء / ممثلة خدمة العملاء,1,1.3677220652995359,True,True,True,True
+298,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8670a,61dde5aa527776b760a866b3,SAU,1365,a.elhayek@skilllab.io,مدير علاقات العملاء / مديرة علاقات العملاء,2,1.3702598829474004,True,True,True,True
+299,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8670b,61dde5aa527776b760a866b3,SAU,1196,a.elhayek@skilllab.io,مدير التوزيع / مديرة التوزيع,2,1.4002786735669923,True,True,True,True
+300,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8670b,61dde5aa527776b760a866b3,SAU,2531,a.elhayek@skilllab.io,منسق المخزون / منسقة المخزون,9,1.403263700664315,False,True,True,True
+301,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8670c,61dde5aa527776b760a866b3,SAU,1864,a.elhayek@skilllab.io,مساعد مبيعات / مساعدة مبيعات,1,1.2991954730450805,True,True,True,True
+302,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8670d,61dde5aa527776b760a866b3,SAU,2074,a.elhayek@skilllab.io,فني الطعام,1,1.3624464568011234,True,True,True,True
+303,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8670d,61dde5aa527776b760a866b3,SAU,1200,a.elhayek@skilllab.io,البائع المتخصص في المشروبات / البائعة المتخصصة في المشروبات,4,1.3734933825348683,True,True,True,True
+304,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8670e,61dde5aa527776b760a866b3,SAU,2284,a.elhayek@skilllab.io,فني إصلاح السيارات على الطريق,1,1.3501838033558518,True,True,True,True
+305,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8670e,61dde5aa527776b760a866b3,SAU,811,a.elhayek@skilllab.io,فني هندسة السيارات,2,1.3507965298807545,True,True,True,True
+306,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8670e,61dde5aa527776b760a866b3,SAU,2186,a.elhayek@skilllab.io,فني فرامل السيارات,5,1.3592538892054835,False,True,True,True
+307,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8670f,61dde5aa527776b760a866b3,SAU,1111,a.elhayek@skilllab.io,مساعد دعم المبيعات / مساعدة دعم المبيعات,0,1.2950128491453952,True,True,True,True
+308,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86710,61dde5aa527776b760a866b3,SAU,121,a.elhayek@skilllab.io,مستشار قطع غيار السيارات / مستشارة قطع غيار السيارات,0,1.293229197727395,True,True,True,True
+309,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86710,61dde5aa527776b760a866b3,SAU,1452,a.elhayek@skilllab.io,مجمع قطع غيار المركبات / مجمعة قطع غيار المركبات,1,1.356625147242028,True,True,True,True
+310,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86711,61dde5aa527776b760a866b3,SAU,2116,a.elhayek@skilllab.io,فني الهندسة الميكانيكية,8,1.4038062054073464,False,True,True,True
+311,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86711,61dde5aa527776b760a866b3,SAU,811,a.elhayek@skilllab.io,فني هندسة السيارات,9,1.4039907783123298,False,True,True,True
+312,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86712,61dde5aa527776b760a866b3,SAU,2817,a.elhayek@skilllab.io,مدير مركز الاتصال / مديرة مركز الاتصال,0,1.2407770360719566,True,True,True,True
+313,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86712,61dde5aa527776b760a866b3,SAU,1280,a.elhayek@skilllab.io,مشرف مركز الاتصال / مشرفة مركز الاتصال,1,1.248281419175234,True,True,True,True
+314,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86712,61dde5aa527776b760a866b3,SAU,1875,a.elhayek@skilllab.io,مشرف مركز الاتصال / مشرفة مركز الاتصال,2,1.2541580588684753,True,True,True,True
+315,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86712,61dde5aa527776b760a866b3,SAU,2590,a.elhayek@skilllab.io,مدير مركز الاتصال / مديرة مركز الاتصال,3,1.2587545555638038,True,True,True,True
+316,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86712,61dde5aa527776b760a866b3,SAU,596,a.elhayek@skilllab.io,محلل مركز الاتصال / محللة مركز الاتصال,4,1.263675491602197,True,True,True,True
+317,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86712,61dde5aa527776b760a866b3,SAU,188,a.elhayek@skilllab.io,وكيل مركز الاتصال / وكيلة مركز الاتصال,5,1.2658752054535376,False,True,True,True
+318,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86712,61dde5aa527776b760a866b3,SAU,1057,a.elhayek@skilllab.io,مدقق جودة مركز الاتصال / مدققة جودة مركز الاتصال,6,1.289881126749291,False,True,True,True
+319,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86713,61dde5aa527776b760a866b3,SAU,2749,a.elhayek@skilllab.io,محاسب / محاسبة,0,1.2469455635913687,True,True,True,True
+320,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86713,61dde5aa527776b760a866b3,SAU,1457,a.elhayek@skilllab.io,محاسب مالي عام / محاسبة مالية عامة,1,1.2567523631630888,True,True,True,True
+321,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86714,61dde5aa527776b760a866b3,SAU,2749,a.elhayek@skilllab.io,محاسب / محاسبة,0,1.2524032739167206,True,True,True,True
+322,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86714,61dde5aa527776b760a866b3,SAU,1457,a.elhayek@skilllab.io,محاسب مالي عام / محاسبة مالية عامة,1,1.3165683674125261,True,True,True,True
+323,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86715,61dde5aa527776b760a866b3,SAU,1096,a.elhayek@skilllab.io,سكرتير / سكرتيرة,0,1.1874046015797315,True,True,True,True
+324,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86716,61dde5aa527776b760a866b3,SAU,1864,a.elhayek@skilllab.io,مساعد مبيعات / مساعدة مبيعات,1,1.2996854157387945,True,True,True,True
+325,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86717,61dde5aa527776b760a866b3,SAU,1266,a.elhayek@skilllab.io,مصمم جرافيك / مصممة جرافيك,0,1.3313127928418156,True,True,True,True
+326,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86718,61dde5aa527776b760a866b3,SAU,1986,a.elhayek@skilllab.io,مدير قسم التجزئة / مديرة قسم التجزئة,1,1.300393014745194,True,True,True,True
+327,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86718,61dde5aa527776b760a866b3,SAU,1864,a.elhayek@skilllab.io,مساعد مبيعات / مساعدة مبيعات,3,1.3310224440938954,True,True,True,True
+328,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86719,61dde5aa527776b760a866b3,SAU,1615,a.elhayek@skilllab.io,مهندس كهرباء / مهندسة كهرباء,0,0.9120889496107192,True,True,True,True
+329,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8671a,61dde5aa527776b760a866b3,SAU,968,a.elhayek@skilllab.io,محصل الديون / محصلة الديون,0,1.3255314799208235,True,True,True,True
+330,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8671b,61dde5aa527776b760a866b3,SAU,2515,a.elhayek@skilllab.io,نادل / نادلة,0,1.2309676329179888,True,True,True,True
+331,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8671c,61dde5aa527776b760a866b3,SAU,2442,a.elhayek@skilllab.io,مدير تأجير العقارات / مديرة تأجير العقارات,0,1.29540559585617,True,True,True,True
+332,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8671d,61dde5aa527776b760a866b3,SAU,850,a.elhayek@skilllab.io,مساعد تسويق / مساعدة تسويق,0,1.2144888959885445,True,True,True,True
+333,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8671e,61dde5aa527776b760a866b3,SAU,2704,a.elhayek@skilllab.io,مدير الأمن / مديرة الأمن,6,1.3515751625847892,False,True,True,True
+334,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8671e,61dde5aa527776b760a866b3,SAU,2350,a.elhayek@skilllab.io,مستشار الأمن / مستشارة الأمن,9,1.3750101204860197,False,True,True,True
+335,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8671f,61dde5aa527776b760a866b3,SAU,248,a.elhayek@skilllab.io,ممثل خدمة العملاء / ممثلة خدمة العملاء,0,1.3457825318742849,True,True,True,True
+336,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8671f,61dde5aa527776b760a866b3,SAU,728,a.elhayek@skilllab.io,مدير خدمة الأعمال / مديرة خدمة الأعمال,2,1.3507937397938492,True,True,True,True
+337,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86721,61dde5aa527776b760a866b3,SAU,248,a.elhayek@skilllab.io,ممثل خدمة العملاء / ممثلة خدمة العملاء,0,1.3436678662658306,True,True,True,True
+338,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86722,61dde5aa527776b760a866b3,SAU,248,a.elhayek@skilllab.io,ممثل خدمة العملاء / ممثلة خدمة العملاء,0,1.331575609345627,True,True,True,True
+339,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86723,61dde5aa527776b760a866b3,SAU,401,a.elhayek@skilllab.io,مسؤول علاقات العمل / مسؤولة علاقات العمل,0,1.2404057938695257,True,True,True,True
+340,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86723,61dde5aa527776b760a866b3,SAU,2282,a.elhayek@skilllab.io,مسؤول علاقات عامة / مسؤولة علاقات عامة,1,1.2590512367258078,True,True,True,True
+341,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86723,61dde5aa527776b760a866b3,SAU,2525,a.elhayek@skilllab.io,مسؤول سياسات الخدمات الاجتماعية / مسؤولة سياسات الخدمات الاجتماعية,9,1.3768767873488776,False,True,True,True
+342,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86726,61dde5aa527776b760a866b3,SAU,2749,a.elhayek@skilllab.io,محاسب / محاسبة,0,1.2385250655548676,True,True,True,True
+343,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86726,61dde5aa527776b760a866b3,SAU,1457,a.elhayek@skilllab.io,محاسب مالي عام / محاسبة مالية عامة,1,1.2505757940720938,True,True,True,True
+344,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86726,61dde5aa527776b760a866b3,SAU,2273,a.elhayek@skilllab.io,مساعد المحاسبة / مساعدة المحاسبة,7,1.3907256268235137,False,True,True,True
+345,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86726,61dde5aa527776b760a866b3,SAU,70,a.elhayek@skilllab.io,مدير المحاسبة / مديرة المحاسبة,8,1.3911636212428997,False,True,True,True
+346,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86727,61dde5aa527776b760a866b3,SAU,1685,a.elhayek@skilllab.io,مهندس معماري / مهندسة معمارية,0,1.1715301090321095,True,True,True,True
+347,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86727,61dde5aa527776b760a866b3,SAU,661,a.elhayek@skilllab.io,رسام معماري / رسامة معمارية,4,1.314523086022658,True,True,True,True
+348,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86728,61dde5aa527776b760a866b3,SAU,1457,a.elhayek@skilllab.io,محاسب مالي عام / محاسبة مالية عامة,0,1.151375213100177,True,True,True,True
+349,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86729,61dde5aa527776b760a866b3,SAU,778,a.elhayek@skilllab.io,مشرف انتاج / مشرفة إنتاج,0,1.3272462924166915,True,True,True,True
+350,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8672a,61dde5aa527776b760a866b3,SAU,1457,a.elhayek@skilllab.io,محاسب مالي عام / محاسبة مالية عامة,0,1.137179758356146,True,True,True,True
+351,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8672a,61dde5aa527776b760a866b3,SAU,2749,a.elhayek@skilllab.io,محاسب / محاسبة,1,1.2596603248441507,True,True,True,True
+352,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8672b,61dde5aa527776b760a866b3,SAU,1826,a.elhayek@skilllab.io,فني خدمة ما بعد البيع,2,1.3680628141772058,True,True,True,True
+353,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8672c,61dde5aa527776b760a866b3,SAU,1826,a.elhayek@skilllab.io,فني خدمة ما بعد البيع,0,1.3679144611340672,True,True,True,True
+354,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8672c,61dde5aa527776b760a866b3,SAU,1047,a.elhayek@skilllab.io,مهندس ميكانيكي / مهندسة ميكانيكية,5,1.3862790057931242,False,True,True,True
+355,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8672d,61dde5aa527776b760a866b3,SAU,1826,a.elhayek@skilllab.io,فني خدمة ما بعد البيع,1,1.3690104099858518,True,True,True,True
+356,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8672d,61dde5aa527776b760a866b3,SAU,1047,a.elhayek@skilllab.io,مهندس ميكانيكي / مهندسة ميكانيكية,6,1.3869359011183728,False,True,True,True
+357,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8672e,61dde5aa527776b760a866b3,SAU,1826,a.elhayek@skilllab.io,فني خدمة ما بعد البيع,0,1.3679144611340672,True,True,True,True
+358,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8672e,61dde5aa527776b760a866b3,SAU,1047,a.elhayek@skilllab.io,مهندس ميكانيكي / مهندسة ميكانيكية,5,1.3862790057931242,False,True,True,True
+359,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8672f,61dde5aa527776b760a866b3,SAU,1826,a.elhayek@skilllab.io,فني خدمة ما بعد البيع,2,1.3680628141772058,True,True,True,True
+360,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86730,61dde5aa527776b760a866b3,SAU,1826,a.elhayek@skilllab.io,فني خدمة ما بعد البيع,3,1.3691589566714657,True,True,True,True
+361,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86731,61dde5aa527776b760a866b3,SAU,1826,a.elhayek@skilllab.io,فني خدمة ما بعد البيع,2,1.3680628141772058,True,True,True,True
+362,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86732,61dde5aa527776b760a866b3,SAU,1266,a.elhayek@skilllab.io,مصمم جرافيك / مصممة جرافيك,0,0.903583490407481,True,True,True,True
+363,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86735,61dde5aa527776b760a866b3,SAU,1864,a.elhayek@skilllab.io,مساعد مبيعات / مساعدة مبيعات,0,1.27727253772693,True,True,True,True
+364,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8673c,61dde5aa527776b760a866b3,SAU,1864,a.elhayek@skilllab.io,مساعد مبيعات / مساعدة مبيعات,1,1.3228029071601053,True,True,True,True
+365,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8673c,61dde5aa527776b760a866b3,SAU,712,a.elhayek@skilllab.io,تاجر الجملة / تاجرة الجملة,3,1.324128087548307,True,True,True,True
+366,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8673d,61dde5aa527776b760a866b3,SAU,1864,a.elhayek@skilllab.io,مساعد مبيعات / مساعدة مبيعات,2,1.3251207369602669,True,True,True,True
+367,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8673e,61dde5aa527776b760a866b3,SAU,1864,a.elhayek@skilllab.io,مساعد مبيعات / مساعدة مبيعات,2,1.3251207369602669,True,True,True,True
+368,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8673f,61dde5aa527776b760a866b3,SAU,2829,a.elhayek@skilllab.io,مدير الموارد البشرية / مديرة الموارد البشرية,0,1.2695970599496715,True,True,True,True
+369,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8673f,61dde5aa527776b760a866b3,SAU,2492,a.elhayek@skilllab.io,مسؤول الموارد البشرية / مسؤولة الموارد البشرية,1,1.302245446031087,True,True,True,True
+370,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8673f,61dde5aa527776b760a866b3,SAU,2544,a.elhayek@skilllab.io,مساعد الموارد البشرية / مساعدة الموارد البشرية,2,1.3023978285359241,True,True,True,True
+371,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86740,61dde5aa527776b760a866b3,SAU,1980,a.elhayek@skilllab.io,مدير المبيعات / مديرة المبيعات,0,0.9816175824230227,True,True,True,True
+372,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86741,61dde5aa527776b760a866b3,SAU,1452,a.elhayek@skilllab.io,مجمع قطع غيار المركبات / مجمعة قطع غيار المركبات,1,1.1877742603592596,True,True,True,True
+373,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86741,61dde5aa527776b760a866b3,SAU,1864,a.elhayek@skilllab.io,مساعد مبيعات / مساعدة مبيعات,2,1.334529544683345,True,True,True,True
+374,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86742,61dde5aa527776b760a866b3,SAU,2749,a.elhayek@skilllab.io,محاسب / محاسبة,0,1.2672952202728052,True,True,True,True
+375,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86742,61dde5aa527776b760a866b3,SAU,753,a.elhayek@skilllab.io,أمين صندوق الشركات / أمينة صندوق الشركات,3,1.2925822057783856,True,True,True,True
+376,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86743,61dde5aa527776b760a866b3,SAU,2749,a.elhayek@skilllab.io,محاسب / محاسبة,1,1.271475673886285,True,True,True,True
+377,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86743,61dde5aa527776b760a866b3,SAU,1457,a.elhayek@skilllab.io,محاسب مالي عام / محاسبة مالية عامة,2,1.3278332583243568,True,True,True,True
+378,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86744,61dde5aa527776b760a866b3,SAU,2492,a.elhayek@skilllab.io,مسؤول الموارد البشرية / مسؤولة الموارد البشرية,0,1.3284155166430713,True,True,True,True
+379,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86745,61dde5aa527776b760a866b3,SAU,2493,a.elhayek@skilllab.io,محلل البيانات / محللة البيانات,0,1.2647710206015002,True,True,True,True
+380,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86745,61dde5aa527776b760a866b3,SAU,1346,a.elhayek@skilllab.io,أخصائي جودة البيانات / أخصائية جودة البيانات,2,1.3089204524817033,True,True,True,True
+381,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86746,61dde5aa527776b760a866b3,SAU,1292,a.elhayek@skilllab.io,موظف مكتب / موظفة مكتب,1,1.2793575490395954,True,True,True,True
+382,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86747,61dde5aa527776b760a866b3,SAU,1365,a.elhayek@skilllab.io,مدير علاقات العملاء / مديرة علاقات العملاء,0,1.2949191584435367,True,True,True,True
+383,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86747,61dde5aa527776b760a866b3,SAU,401,a.elhayek@skilllab.io,مسؤول علاقات العمل / مسؤولة علاقات العمل,1,1.295595487531138,True,True,True,True
+384,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86748,61dde5aa527776b760a866b3,SAU,1096,a.elhayek@skilllab.io,سكرتير / سكرتيرة,0,1.2229464796113463,True,True,True,True
+385,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86748,61dde5aa527776b760a866b3,SAU,505,a.elhayek@skilllab.io,مساعد تنفيذي / مساعدة تنفيذية,1,1.288343249120312,True,True,True,True
+386,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8674b,61dde5aa527776b760a866b3,SAU,2749,a.elhayek@skilllab.io,محاسب / محاسبة,1,1.2327651827060515,True,True,True,True
+387,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8674b,61dde5aa527776b760a866b3,SAU,1457,a.elhayek@skilllab.io,محاسب مالي عام / محاسبة مالية عامة,3,1.2982303143173342,True,True,True,True
+388,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8674c,61dde5aa527776b760a866b3,SAU,2532,a.elhayek@skilllab.io,مهندس مدني / مهندسة مدنية,0,1.1267964324651318,True,True,True,True
+389,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8674e,61dde5aa527776b760a866b3,SAU,971,a.elhayek@skilllab.io,مسؤول سياسات الشؤون المالية / مسؤولة سياسات الشؤون المالية,5,1.3209180792285953,False,True,True,True
+390,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86750,61dde5aa527776b760a866b3,SAU,218,a.elhayek@skilllab.io,مدرب رياض / مدربة رياضية,0,1.1308840065734427,True,True,True,True
+391,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86750,61dde5aa527776b760a866b3,SAU,759,a.elhayek@skilllab.io,مدرب رياضي / مدربة رياضية,1,1.1491531529955248,True,True,True,True
+392,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86751,61dde5aa527776b760a866b3,SAU,645,a.elhayek@skilllab.io,مسوق على الإنترنت / مسوقة على الإنترنت,1,1.3412136409351945,True,True,True,True
+393,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86752,61dde5aa527776b760a866b3,SAU,782,a.elhayek@skilllab.io,مسوق شبكات / مسوقة شبكات,0,1.2346792557963748,True,True,True,True
+394,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86752,61dde5aa527776b760a866b3,SAU,645,a.elhayek@skilllab.io,مسوق على الإنترنت / مسوقة على الإنترنت,1,1.2676884180130856,True,True,True,True
+395,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86753,61dde5aa527776b760a866b3,SAU,1337,a.elhayek@skilllab.io,مدير التسويق / مديرة التسويق,0,1.2709832244144381,True,True,True,True
+396,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86753,61dde5aa527776b760a866b3,SAU,178,a.elhayek@skilllab.io,كبير مسؤولي التسويق,1,1.3309212008407703,True,True,True,True
+397,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86753,61dde5aa527776b760a866b3,SAU,1980,a.elhayek@skilllab.io,مدير المبيعات / مديرة المبيعات,2,1.353338697029392,True,True,True,True
+398,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86754,61dde5aa527776b760a866b3,SAU,2749,a.elhayek@skilllab.io,محاسب / محاسبة,0,1.2372551925017357,True,True,True,True
+399,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86754,61dde5aa527776b760a866b3,SAU,1457,a.elhayek@skilllab.io,محاسب مالي عام / محاسبة مالية عامة,1,1.251835211382065,True,True,True,True
+400,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86755,61dde5aa527776b760a866b3,SAU,1864,a.elhayek@skilllab.io,مساعد مبيعات / مساعدة مبيعات,0,1.1723554112636676,True,True,True,True
+401,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86756,61dde5aa527776b760a866b3,SAU,1864,a.elhayek@skilllab.io,مساعد مبيعات / مساعدة مبيعات,0,1.235961540728307,True,True,True,True
+402,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86757,61dde5aa527776b760a866b3,SAU,1864,a.elhayek@skilllab.io,مساعد مبيعات / مساعدة مبيعات,0,1.3032752945879114,True,True,True,True
+403,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86758,61dde5aa527776b760a866b3,SAU,2516,a.elhayek@skilllab.io,مدير المطعم / مديرة المطعم,0,1.3694868516817302,True,True,True,True
+404,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86758,61dde5aa527776b760a866b3,SAU,2615,a.elhayek@skilllab.io,مدير توزيع المشروبات / مديرة توزيع المشروبات,1,1.3732099691737036,True,True,True,True
+405,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86758,61dde5aa527776b760a866b3,SAU,1200,a.elhayek@skilllab.io,البائع المتخصص في المشروبات / البائعة المتخصصة في المشروبات,3,1.3760193243593606,True,True,True,True
+406,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86759,61dde5aa527776b760a866b3,SAU,1980,a.elhayek@skilllab.io,مدير المبيعات / مديرة المبيعات,1,1.3735509589817985,True,True,True,True
+407,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86759,61dde5aa527776b760a866b3,SAU,1111,a.elhayek@skilllab.io,مساعد دعم المبيعات / مساعدة دعم المبيعات,4,1.3843939057612211,True,True,True,True
+408,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86759,61dde5aa527776b760a866b3,SAU,248,a.elhayek@skilllab.io,ممثل خدمة العملاء / ممثلة خدمة العملاء,8,1.3889615332301484,False,True,True,True
+409,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8675a,61dde5aa527776b760a866b3,SAU,1864,a.elhayek@skilllab.io,مساعد مبيعات / مساعدة مبيعات,1,1.3129452824904198,True,True,True,True
+410,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8675b,61dde5aa527776b760a866b3,SAU,1864,a.elhayek@skilllab.io,مساعد مبيعات / مساعدة مبيعات,1,1.3860284797369433,True,True,True,True
+411,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8675b,61dde5aa527776b760a866b3,SAU,1980,a.elhayek@skilllab.io,مدير المبيعات / مديرة المبيعات,7,1.3943522030976814,False,True,True,True
+412,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8675c,61dde5aa527776b760a866b3,SAU,1615,a.elhayek@skilllab.io,مهندس كهرباء / مهندسة كهرباء,0,1.0729353608172492,True,True,True,True
+413,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8675d,61dde5aa527776b760a866b3,SAU,1096,a.elhayek@skilllab.io,سكرتير / سكرتيرة,0,1.2282778410753479,True,True,True,True
+414,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8675d,61dde5aa527776b760a866b3,SAU,505,a.elhayek@skilllab.io,مساعد تنفيذي / مساعدة تنفيذية,1,1.2782859231896302,True,True,True,True
+415,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8675e,61dde5aa527776b760a866b3,SAU,1012,a.elhayek@skilllab.io,بائع متخصص / بائعة متخصصة,0,1.2847219963081482,True,True,True,True
+416,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8675f,61dde5aa527776b760a866b3,SAU,1864,a.elhayek@skilllab.io,مساعد مبيعات / مساعدة مبيعات,0,1.250475760705289,True,True,True,True
+417,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86760,61dde5aa527776b760a866b3,SAU,1864,a.elhayek@skilllab.io,مساعد مبيعات / مساعدة مبيعات,0,1.1987769938627637,True,True,True,True
+418,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86763,61dde5aa527776b760a866b3,SAU,1864,a.elhayek@skilllab.io,مساعد مبيعات / مساعدة مبيعات,1,1.2699966207145024,True,True,True,True
+419,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86764,61dde5aa527776b760a866b3,SAU,1446,a.elhayek@skilllab.io,مسؤول العلاقات الدولية / مسؤولة العلاقات الدولية,0,1.2413014997521663,True,True,True,True
+420,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86765,61dde5aa527776b760a866b3,SAU,2749,a.elhayek@skilllab.io,محاسب / محاسبة,0,1.2749169768398312,True,True,True,True
+421,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86765,61dde5aa527776b760a866b3,SAU,2531,a.elhayek@skilllab.io,منسق المخزون / منسقة المخزون,4,1.3657102309485472,True,True,True,True
+422,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86766,61dde5aa527776b760a866b3,SAU,1266,a.elhayek@skilllab.io,مصمم جرافيك / مصممة جرافيك,0,0.9719330144621398,True,True,True,True
+423,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86767,61dde5aa527776b760a866b3,SAU,2704,a.elhayek@skilllab.io,مدير الأمن / مديرة الأمن,0,1.3131522011865306,True,True,True,True
+424,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86767,61dde5aa527776b760a866b3,SAU,2350,a.elhayek@skilllab.io,مستشار الأمن / مستشارة الأمن,2,1.3222502359798254,True,True,True,True
+425,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86768,61dde5aa527776b760a866b3,SAU,2829,a.elhayek@skilllab.io,مدير الموارد البشرية / مديرة الموارد البشرية,3000,2.0,False,False,False,False
+426,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86768,61dde5aa527776b760a866b3,SAU,2492,a.elhayek@skilllab.io,مسؤول الموارد البشرية / مسؤولة الموارد البشرية,3000,2.0,False,False,False,False
+427,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86769,61dde5aa527776b760a866b3,SAU,1726,a.elhayek@skilllab.io,طاهي / طاهية,3000,2.0,False,False,False,False
+428,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8676a,61dde5aa527776b760a866b3,SAU,2829,a.elhayek@skilllab.io,مدير الموارد البشرية / مديرة الموارد البشرية,0,0.7909999305136077,True,True,True,True
+429,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8676a,61dde5aa527776b760a866b3,SAU,2492,a.elhayek@skilllab.io,مسؤول الموارد البشرية / مسؤولة الموارد البشرية,2,1.2295452586448545,True,True,True,True
+430,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8676b,61dde5aa527776b760a866b3,SAU,1395,a.elhayek@skilllab.io,مصمم داخلي / مصممة داخلية,3000,2.0,False,False,False,False
+431,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8676c,61dde5aa527776b760a866b3,SAU,1859,a.elhayek@skilllab.io,أخصائي نظم المعلومات الجغرافية / أخصائية نظم المعلومات الجغرافية,0,1.2274311847232382,True,True,True,True
+432,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8676d,61dde5aa527776b760a866b3,SAU,1800,a.elhayek@skilllab.io,محامي / محامية,0,1.1772382034195021,True,True,True,True
+433,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8676e,61dde5aa527776b760a866b3,SAU,2342,a.elhayek@skilllab.io,مساعد العقارات / مساعدة العقارات,1,1.3720926262212982,True,True,True,True
+434,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8676e,61dde5aa527776b760a866b3,SAU,2071,a.elhayek@skilllab.io,مثمن العقارات / مثمنة العقارات,3,1.374246263235095,True,True,True,True
+435,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8676e,61dde5aa527776b760a866b3,SAU,2388,a.elhayek@skilllab.io,مدير البرنامج / مديرة البرنامج,3000,2.0,False,False,False,False
+436,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8676f,61dde5aa527776b760a866b3,SAU,1980,a.elhayek@skilllab.io,مدير المبيعات / مديرة المبيعات,21,1.4070718249890233,False,False,False,True
+437,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86770,61dde5aa527776b760a866b3,SAU,1864,a.elhayek@skilllab.io,مساعد مبيعات / مساعدة مبيعات,0,1.2905772339168626,True,True,True,True
+438,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86773,61dde5aa527776b760a866b3,SAU,721,a.elhayek@skilllab.io,خادم صيانة المركبات / خادمة صيانة المركبات,2,1.348589364139305,True,True,True,True
+439,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86774,61dde5aa527776b760a866b3,SAU,645,a.elhayek@skilllab.io,مسوق على الإنترنت / مسوقة على الإنترنت,3000,2.0,False,False,False,False
+440,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86775,61dde5aa527776b760a866b3,SAU,1047,a.elhayek@skilllab.io,مهندس ميكانيكي / مهندسة ميكانيكية,7,1.3579873172628554,False,True,True,True
+441,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86777,61dde5aa527776b760a866b3,SAU,2324,a.elhayek@skilllab.io,مطور ويب / مطورة ويب,3000,2.0,False,False,False,False
+442,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86777,61dde5aa527776b760a866b3,SAU,248,a.elhayek@skilllab.io,ممثل خدمة العملاء / ممثلة خدمة العملاء,27,1.3649390440705902,False,False,False,True
+443,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86777,61dde5aa527776b760a866b3,SAU,850,a.elhayek@skilllab.io,مساعد تسويق / مساعدة تسويق,3000,2.0,False,False,False,False
+444,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86778,61dde5aa527776b760a866b3,SAU,1864,a.elhayek@skilllab.io,مساعد مبيعات / مساعدة مبيعات,1,1.2942895149507014,True,True,True,True
+445,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86778,61dde5aa527776b760a866b3,SAU,1365,a.elhayek@skilllab.io,مدير علاقات العملاء / مديرة علاقات العملاء,32,1.4103309732089069,False,False,False,True
+446,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86779,61dde5aa527776b760a866b3,SAU,2260,a.elhayek@skilllab.io,عامل المستودع / عاملة المستودع,8,1.3651935329984246,False,True,True,True
+447,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8677a,61dde5aa527776b760a866b3,SAU,2260,a.elhayek@skilllab.io,عامل المستودع / عاملة المستودع,7,1.3612924335611567,False,True,True,True
+448,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8677b,61dde5aa527776b760a866b3,SAU,2602,a.elhayek@skilllab.io,مدير تمويل البرامج / مديرة تمويل البرامج,0,1.2471905835563941,True,True,True,True
+449,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8677b,61dde5aa527776b760a866b3,SAU,194,a.elhayek@skilllab.io,مدير عقاري / مديرة عقاري,1,1.2482569112166353,True,True,True,True
+450,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8677c,61dde5aa527776b760a866b3,SAU,2602,a.elhayek@skilllab.io,مدير تمويل البرامج / مديرة تمويل البرامج,0,1.2238314199793294,True,True,True,True
+451,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8677c,61dde5aa527776b760a866b3,SAU,194,a.elhayek@skilllab.io,مدير عقاري / مديرة عقاري,1,1.225059116685522,True,True,True,True
+452,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8677c,61dde5aa527776b760a866b3,SAU,2192,a.elhayek@skilllab.io,مطور عقاري / مطورة عقارية,2,1.3175865334526005,True,True,True,True
+453,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8677d,61dde5aa527776b760a866b3,SAU,2602,a.elhayek@skilllab.io,مدير تمويل البرامج / مديرة تمويل البرامج,0,1.2238314199793294,True,True,True,True
+454,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8677d,61dde5aa527776b760a866b3,SAU,194,a.elhayek@skilllab.io,مدير عقاري / مديرة عقاري,1,1.225059116685522,True,True,True,True
+455,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8677d,61dde5aa527776b760a866b3,SAU,2192,a.elhayek@skilllab.io,مطور عقاري / مطورة عقارية,2,1.3175865334526005,True,True,True,True
+456,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8677d,61dde5aa527776b760a866b3,SAU,1518,a.elhayek@skilllab.io,مستثمر عقاري / مستثمرة عقارية,3,1.3206326089602025,True,True,True,True
+457,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8677d,61dde5aa527776b760a866b3,SAU,1365,a.elhayek@skilllab.io,مدير علاقات العملاء / مديرة علاقات العملاء,4,1.3655852038316603,True,True,True,True
+458,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8677e,61dde5aa527776b760a866b3,SAU,673,a.elhayek@skilllab.io,مدير مشتريات / مديرة مشتريات,0,1.1942933682088273,True,True,True,True
+459,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8677f,61dde5aa527776b760a866b3,SAU,1337,a.elhayek@skilllab.io,مدير التسويق / مديرة التسويق,2,1.3449344031393964,True,True,True,True
+460,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a8677f,61dde5aa527776b760a866b3,SAU,1980,a.elhayek@skilllab.io,مدير المبيعات / مديرة المبيعات,19,1.3935359278228345,False,False,True,True
+461,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86780,61dde5aa527776b760a866b3,SAU,1914,a.elhayek@skilllab.io,مضيف مطعم / مضيفة مطعم,3000,2.0,False,False,False,False
+462,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86781,61dde5aa527776b760a866b3,SAU,1864,a.elhayek@skilllab.io,مساعد مبيعات / مساعدة مبيعات,0,1.2082107183550637,True,True,True,True
+463,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86781,61dde5aa527776b760a866b3,SAU,1980,a.elhayek@skilllab.io,مدير المبيعات / مديرة المبيعات,3000,2.0,False,False,False,False
+464,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86782,61dde5aa527776b760a866b3,SAU,872,a.elhayek@skilllab.io,مرسل شحن البضائع / مرسلة شحن البضائع,0,1.3790880486310437,True,True,True,True
+465,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86783,61dde5aa527776b760a866b3,SAU,2480,a.elhayek@skilllab.io,مدير الخدمة القانونية / مديرة الخدمة القانونية,0,1.315990655132425,True,True,True,True
+466,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86785,61dde5aa527776b760a866b3,SAU,850,a.elhayek@skilllab.io,مساعد تسويق / مساعدة تسويق,0,1.2041483212003579,True,True,True,True
+467,8347,61dda167a33565ec1ce31aa6,,61dde5ae527776b760a86785,61dde5aa527776b760a866b3,SAU,842,a.elhayek@skilllab.io,مستشار تسويق للشركات / مستشارة تسويق للشركات,1,1.2465981452008719,True,True,True,True
+468,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a86786,61dde5aa527776b760a866b3,SAU,1864,a.elhayek@skilllab.io,مساعد مبيعات / مساعدة مبيعات,1,1.2953358019151202,True,True,True,True
+469,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a86787,61dde5aa527776b760a866b3,SAU,2342,a.elhayek@skilllab.io,مساعد العقارات / مساعدة العقارات,0,1.2550340457085758,True,True,True,True
+470,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a86787,61dde5aa527776b760a866b3,SAU,2232,a.elhayek@skilllab.io,مدير الخدمة / مديرة الخدمة,3,1.3735815530615754,True,True,True,True
+471,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a86788,61dde5aa527776b760a866b3,SAU,1012,a.elhayek@skilllab.io,بائع متخصص / بائعة متخصصة,0,1.2508403545140312,True,True,True,True
+472,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a86789,61dde5aa527776b760a866b3,SAU,248,a.elhayek@skilllab.io,ممثل خدمة العملاء / ممثلة خدمة العملاء,0,1.3404648164990955,True,True,True,True
+473,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a8678a,61dde5aa527776b760a866b3,SAU,1010,a.elhayek@skilllab.io,مدير أعمال / مديرة أعمال,3000,2.0,False,False,False,False
+474,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a8678c,61dde5aa527776b760a866b3,SAU,248,a.elhayek@skilllab.io,ممثل خدمة العملاء / ممثلة خدمة العملاء,0,1.2719920887073237,True,True,True,True
+475,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a8678d,61dde5aa527776b760a866b3,SAU,10,a.elhayek@skilllab.io,أخصائي علاج طبيعي / أخصائية علاج طبيعي,3000,2.0,False,False,False,False
+476,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a8678e,61dde5aa527776b760a866b3,SAU,2442,a.elhayek@skilllab.io,مدير تأجير العقارات / مديرة تأجير العقارات,3000,2.0,False,False,False,False
+477,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a8678f,61dde5aa527776b760a866b3,SAU,530,a.elhayek@skilllab.io,أمين الصندوق / أمينة الصندوق,3000,2.0,False,False,False,False
+478,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a86790,61dde5aa527776b760a866b3,SAU,1864,a.elhayek@skilllab.io,مساعد مبيعات / مساعدة مبيعات,1,1.3331497601905733,True,True,True,True
+479,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a86791,61dde5aa527776b760a866b3,SAU,2410,a.elhayek@skilllab.io,مدير فني / مديرة فنية,3000,2.0,False,False,False,False
+480,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a86792,61dde5aa527776b760a866b3,SAU,1980,a.elhayek@skilllab.io,مدير المبيعات / مديرة المبيعات,49,1.3995258190729167,False,False,False,True
+481,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a86793,61dde5aa527776b760a866b3,SAU,1225,a.elhayek@skilllab.io,منسق برنامج العمل / منسقة برنامج العمل,13,1.359745105640718,False,False,True,True
+482,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a86794,61dde5aa527776b760a866b3,SAU,1175,a.elhayek@skilllab.io,مفتش جودة المنتجات / مفتشة جودة المنتجات,3000,2.0,False,False,False,False
+483,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a86795,61dde5aa527776b760a866b3,SAU,194,a.elhayek@skilllab.io,مدير عقاري / مديرة عقاري,0,1.1769250148466563,True,True,True,True
+484,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a86795,61dde5aa527776b760a866b3,SAU,850,a.elhayek@skilllab.io,مساعد تسويق / مساعدة تسويق,5,1.3947287335689544,False,True,True,True
+485,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a86796,61dde5aa527776b760a866b3,SAU,672,a.elhayek@skilllab.io,مدير المعلومات / مديرة المعلومات,0,1.3069451481147687,True,True,True,True
+486,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a86796,61dde5aa527776b760a866b3,SAU,1883,a.elhayek@skilllab.io,مدير نظم تكنولوجيا المعلومات والاتصالات / مديرة نظم تكنولوجيا المعلومات والاتصالات,4,1.342966192016846,True,True,True,True
+487,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a86797,61dde5aa527776b760a866b3,SAU,188,a.elhayek@skilllab.io,وكيل مركز الاتصال / وكيلة مركز الاتصال,42,1.396779207220172,False,False,False,True
+488,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a86798,61dde5aa527776b760a866b3,SAU,721,a.elhayek@skilllab.io,خادم صيانة المركبات / خادمة صيانة المركبات,0,1.305283823078,True,True,True,True
+489,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a86798,61dde5aa527776b760a866b3,SAU,471,a.elhayek@skilllab.io,مشرف صيانة المركبات / مشرفة صيانة المركبات,1,1.306940829789554,True,True,True,True
+490,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a86799,61dde5aa527776b760a866b3,SAU,1980,a.elhayek@skilllab.io,مدير المبيعات / مديرة المبيعات,3000,2.0,False,False,False,False
+491,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a8679a,61dde5aa527776b760a866b3,SAU,1980,a.elhayek@skilllab.io,مدير المبيعات / مديرة المبيعات,0,1.3527468002676797,True,True,True,True
+492,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a8679a,61dde5aa527776b760a866b3,SAU,1450,a.elhayek@skilllab.io,باحث أبحاث السوق / باحثة أبحاث السوق,7,1.37305564034806,False,True,True,True
+493,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a8679c,61dde5aa527776b760a866b3,SAU,728,a.elhayek@skilllab.io,مدير خدمة الأعمال / مديرة خدمة الأعمال,1,1.2561864633580977,True,True,True,True
+494,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a8679d,61dde5aa527776b760a866b3,SAU,1864,a.elhayek@skilllab.io,مساعد مبيعات / مساعدة مبيعات,1,1.306630299709391,True,True,True,True
+495,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a8679e,61dde5aa527776b760a866b3,SAU,116,a.elhayek@skilllab.io,مدير فرع / مديرة الفرع,0,1.2746258152929124,True,True,True,True
+496,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a8679e,61dde5aa527776b760a866b3,SAU,2315,a.elhayek@skilllab.io,مسؤول الحسابات / مسؤولة الحسابات,9,1.3785427942842368,False,True,True,True
+497,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a8679f,61dde5aa527776b760a866b3,SAU,1980,a.elhayek@skilllab.io,مدير المبيعات / مديرة المبيعات,14,1.3822054727390987,False,False,True,True
+498,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867a0,61dde5aa527776b760a866b3,SAU,1457,a.elhayek@skilllab.io,محاسب مالي عام / محاسبة مالية عامة,1,1.31864518207781,True,True,True,True
+499,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867a1,61dde5aa527776b760a866b3,SAU,1424,a.elhayek@skilllab.io,فني أسنان,4,1.2915896738783939,True,True,True,True
+500,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867a1,61dde5aa527776b760a866b3,SAU,2029,a.elhayek@skilllab.io,مندوب مبيعات طبية / مندوبة مبيعات طبية,8,1.3300186563410858,False,True,True,True
+501,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867a2,61dde5aa527776b760a866b3,SAU,1737,a.elhayek@skilllab.io,مساعد قانوني / مساعدة قانونية,0,1.1168631470196047,True,True,True,True
+502,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867a3,61dde5aa527776b760a866b3,SAU,1337,a.elhayek@skilllab.io,مدير التسويق / مديرة التسويق,2,1.3730647051211868,True,True,True,True
+503,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867a4,61dde5aa527776b760a866b3,SAU,1625,a.elhayek@skilllab.io,مساعد ممرض / مساعدة ممرض,3000,2.0,False,False,False,False
+504,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867a5,61dde5aa527776b760a866b3,SAU,1446,a.elhayek@skilllab.io,مسؤول العلاقات الدولية / مسؤولة العلاقات الدولية,0,1.2469307990984133,True,True,True,True
+505,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867a6,61dde5aa527776b760a866b3,SAU,1864,a.elhayek@skilllab.io,مساعد مبيعات / مساعدة مبيعات,1,1.284575916387076,True,True,True,True
+506,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867a8,61dde5aa527776b760a866b3,SAU,1266,a.elhayek@skilllab.io,مصمم جرافيك / مصممة جرافيك,0,1.0317344911736146,True,True,True,True
+507,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867a9,61dde5aa527776b760a866b3,SAU,1864,a.elhayek@skilllab.io,مساعد مبيعات / مساعدة مبيعات,0,1.2493608852235323,True,True,True,True
+508,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867ad,61dde5aa527776b760a866b3,SAU,2516,a.elhayek@skilllab.io,مدير المطعم / مديرة المطعم,2,1.3461151560997222,True,True,True,True
+509,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867ae,61dde5aa527776b760a866b3,SAU,1864,a.elhayek@skilllab.io,مساعد مبيعات / مساعدة مبيعات,1,1.3037608702466166,True,True,True,True
+510,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867af,61dde5aa527776b760a866b3,SAU,1864,a.elhayek@skilllab.io,مساعد مبيعات / مساعدة مبيعات,1,1.283817744487915,True,True,True,True
+511,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867b0,61dde5aa527776b760a866b3,SAU,673,a.elhayek@skilllab.io,مدير مشتريات / مديرة مشتريات,0,1.1438675306566264,True,True,True,True
+512,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867b1,61dde5aa527776b760a866b3,SAU,2004,a.elhayek@skilllab.io,مشرف الصيانة الصناعية / مشرفة الصيانة الصناعية,11,1.3585354195586403,False,False,True,True
+513,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867b2,61dde5aa527776b760a866b3,SAU,673,a.elhayek@skilllab.io,مدير مشتريات / مديرة مشتريات,0,1.1438675306566264,True,True,True,True
+514,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867b3,61dde5aa527776b760a866b3,SAU,1980,a.elhayek@skilllab.io,مدير المبيعات / مديرة المبيعات,19,1.3727490570909844,False,False,True,True
+515,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867b4,61dde5aa527776b760a866b3,SAU,2749,a.elhayek@skilllab.io,محاسب / محاسبة,0,1.2716904995265683,True,True,True,True
+516,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867b4,61dde5aa527776b760a866b3,SAU,1457,a.elhayek@skilllab.io,محاسب مالي عام / محاسبة مالية عامة,1,1.28019288849067,True,True,True,True
+517,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867b5,61dde5aa527776b760a866b3,SAU,2935,a.elhayek@skilllab.io,صانع المعجنات / صانعة المعجنات,3,1.3387944466947825,True,True,True,True
+518,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867b5,61dde5aa527776b760a866b3,SAU,1125,a.elhayek@skilllab.io,مشغل الخبز / مشغلة الخبز,6,1.3822361296081056,False,True,True,True
+519,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867b6,61dde5aa527776b760a866b3,SAU,2492,a.elhayek@skilllab.io,مسؤول الموارد البشرية / مسؤولة الموارد البشرية,21,1.4051394999577984,False,False,False,True
+520,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867b7,61dde5aa527776b760a866b3,SAU,850,a.elhayek@skilllab.io,مساعد تسويق / مساعدة تسويق,0,1.10568697147478,True,True,True,True
+521,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867b7,61dde5aa527776b760a866b3,SAU,842,a.elhayek@skilllab.io,مستشار تسويق للشركات / مستشارة تسويق للشركات,1,1.169904548830917,True,True,True,True
+522,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867b8,61dde5aa527776b760a866b3,SAU,1012,a.elhayek@skilllab.io,بائع متخصص / بائعة متخصصة,0,1.296299452906454,True,True,True,True
+523,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867b9,61dde5aa527776b760a866b3,SAU,2056,a.elhayek@skilllab.io,موظف الرواتب / موظفة الرواتب,0,1.3036023467045106,True,True,True,True
+524,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867b9,61dde5aa527776b760a866b3,SAU,2544,a.elhayek@skilllab.io,مساعد الموارد البشرية / مساعدة الموارد البشرية,3000,2.0,False,False,False,False
+525,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867bb,61dde5aa527776b760a866b3,SAU,2492,a.elhayek@skilllab.io,مسؤول الموارد البشرية / مسؤولة الموارد البشرية,3000,2.0,False,False,False,False
+526,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867bb,61dde5aa527776b760a866b3,SAU,2544,a.elhayek@skilllab.io,مساعد الموارد البشرية / مساعدة الموارد البشرية,3000,2.0,False,False,False,False
+527,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867bc,61dde5aa527776b760a866b3,SAU,2845,a.elhayek@skilllab.io,موظف الاستقبال / موظفة الاستقبال,0,1.3223931051279372,True,True,True,True
+528,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867bd,61dde5aa527776b760a866b3,SAU,1200,a.elhayek@skilllab.io,البائع المتخصص في المشروبات / البائعة المتخصصة في المشروبات,2,1.3898712106400084,True,True,True,True
+529,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867be,61dde5aa527776b760a866b3,SAU,2749,a.elhayek@skilllab.io,محاسب / محاسبة,0,1.223865358013483,True,True,True,True
+530,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867bf,61dde5aa527776b760a866b3,SAU,2749,a.elhayek@skilllab.io,محاسب / محاسبة,0,1.2373456545617092,True,True,True,True
+531,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867c0,61dde5aa527776b760a866b3,SAU,2788,a.elhayek@skilllab.io,مطور برمجيات / مطورة برمجيات,3000,2.0,False,False,False,False
+532,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867c1,61dde5aa527776b760a866b3,SAU,1853,a.elhayek@skilllab.io,موظف السجلات / موظفة السجلات,4,1.3871765670163012,True,True,True,True
+533,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867c1,61dde5aa527776b760a866b3,SAU,1382,a.elhayek@skilllab.io,معالج المبيعات / معالجة البيانات,7,1.3900389113368057,False,True,True,True
+534,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867c2,61dde5aa527776b760a866b3,SAU,530,a.elhayek@skilllab.io,أمين الصندوق / أمينة الصندوق,0,1.297446130256644,True,True,True,True
+535,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867c3,61dde5aa527776b760a866b3,SAU,366,a.elhayek@skilllab.io,مدير قناة المبيعات عبر الإنترنت / مديرة قناة المبيعات عبر الإنترنت,5,1.3690964110964874,False,True,True,True
+536,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867c4,61dde5aa527776b760a866b3,SAU,2532,a.elhayek@skilllab.io,مهندس مدني / مهندسة مدنية,0,1.1285548239350307,True,True,True,True
+537,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867c5,61dde5aa527776b760a866b3,SAU,672,a.elhayek@skilllab.io,مدير المعلومات / مديرة المعلومات,3000,2.0,False,False,False,False
+538,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867c6,61dde5aa527776b760a866b3,SAU,2324,a.elhayek@skilllab.io,مطور ويب / مطورة ويب,1,1.3127450811746335,True,True,True,True
+539,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867c7,61dde5aa527776b760a866b3,SAU,2515,a.elhayek@skilllab.io,نادل / نادلة,3000,2.0,False,False,False,False
+540,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867c8,61dde5aa527776b760a866b3,SAU,1012,a.elhayek@skilllab.io,بائع متخصص / بائعة متخصصة,0,1.2626724464739025,True,True,True,True
+541,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867c9,61dde5aa527776b760a866b3,SAU,1337,a.elhayek@skilllab.io,مدير التسويق / مديرة التسويق,0,1.361379041728378,True,True,True,True
+542,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867ca,61dde5aa527776b760a866b3,SAU,1864,a.elhayek@skilllab.io,مساعد مبيعات / مساعدة مبيعات,1,1.2952761401561506,True,True,True,True
+543,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867cb,61dde5aa527776b760a866b3,SAU,661,a.elhayek@skilllab.io,رسام معماري / رسامة معمارية,0,1.097604104452644,True,True,True,True
+544,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867cc,61dde5aa527776b760a866b3,SAU,2085,a.elhayek@skilllab.io,مدير المخاطر / مديرة المخاطر,2,1.3649664588620307,True,True,True,True
+545,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867cc,61dde5aa527776b760a866b3,SAU,1245,a.elhayek@skilllab.io,مفتش الصحة والسلامة المهنية / مفتشة الصحة والسلامة المهنية,14,1.3839862087483243,False,False,True,True
+546,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867cd,61dde5aa527776b760a866b3,SAU,2232,a.elhayek@skilllab.io,مدير الخدمة / مديرة الخدمة,1,1.3786471905633615,True,True,True,True
+547,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867ce,61dde5aa527776b760a866b3,SAU,2232,a.elhayek@skilllab.io,مدير الخدمة / مديرة الخدمة,1,1.3786471905633615,True,True,True,True
+548,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867cf,61dde5aa527776b760a866b3,SAU,2232,a.elhayek@skilllab.io,مدير الخدمة / مديرة الخدمة,1,1.3786471905633615,True,True,True,True
+549,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867d0,61dde5aa527776b760a866b3,SAU,2232,a.elhayek@skilllab.io,مدير الخدمة / مديرة الخدمة,1,1.3786471905633615,True,True,True,True
+550,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867d1,61dde5aa527776b760a866b3,SAU,2232,a.elhayek@skilllab.io,مدير الخدمة / مديرة الخدمة,2,1.381563783976576,True,True,True,True
+551,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867d2,61dde5aa527776b760a866b3,SAU,2232,a.elhayek@skilllab.io,مدير الخدمة / مديرة الخدمة,1,1.3786471905633615,True,True,True,True
+552,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867d3,61dde5aa527776b760a866b3,SAU,1980,a.elhayek@skilllab.io,مدير المبيعات / مديرة المبيعات,2,1.2957989375201153,True,True,True,True
+553,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867d4,61dde5aa527776b760a866b3,SAU,1200,a.elhayek@skilllab.io,البائع المتخصص في المشروبات / البائعة المتخصصة في المشروبات,1,1.3826947986013791,True,True,True,True
+554,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867d4,61dde5aa527776b760a866b3,SAU,2267,a.elhayek@skilllab.io,ساقي القهوة / ساقية القهوة,10,1.390770352040522,False,False,True,True
+555,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867d4,61dde5aa527776b760a866b3,SAU,664,a.elhayek@skilllab.io,عامل تحميص القهوة / عاملة تحميص القهوة,18,1.3960712930388977,False,False,True,True
+556,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867d5,61dde5aa527776b760a866b3,SAU,2511,a.elhayek@skilllab.io,مصمم الوسائط الرقمية / مصممة الوسائط الرقمية,5,1.3632607529796026,False,True,True,True
+557,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867d6,61dde5aa527776b760a866b3,SAU,1788,a.elhayek@skilllab.io,عامل طاقم مطاعم الخدمة السريعة / عاملة طاقم مطاعم الخدمة السريعة,0,1.2458686215964256,True,True,True,True
+558,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867d6,61dde5aa527776b760a866b3,SAU,875,a.elhayek@skilllab.io,قائد فريق مطعم الخدمة السريعة / قائدة فريق مطعم الخدمة السريعة,3000,2.0,False,False,False,False
+559,8347,61dda167a33565ec1ce31aa6,,61dde5af527776b760a867d7,61dde5aa527776b760a866b3,SAU,762,a.elhayek@skilllab.io,وسيط عقارات / وسيطة عقارات,14,1.4115324381327001,False,False,True,True
