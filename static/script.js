@@ -201,7 +201,6 @@ function load_index(client_name,freq) {
   <div class="content">
     <h2>Summary</h2>
     <div class="table-stats"></div>
-    <canvas id="myChart"></canvas>
     <h2>Review</h2>
     <button class="button review-button">Review ambiguous tasks</button>
     These are tasks with at least one contested tag. 
@@ -221,68 +220,6 @@ function load_index(client_name,freq) {
       load_proj(response, projs[0]);
     });
   });
-
-
-}
-
-const CHART_COLORS = {
-  red: 'rgb(255, 99, 132)',
-  orange: 'rgb(255, 159, 64)',
-  yellow: 'rgb(255, 205, 86)',
-  green: 'rgb(75, 192, 192)',
-  blue: 'rgb(54, 162, 235)',
-  purple: 'rgb(153, 102, 255)',
-  grey: 'rgb(201, 203, 207)'
-};
-
-function chart() {
-  let proj = 'SAU3';
-  $.getJSON(`/dashboard/user-stats?project_name=${proj}`, response => {
-    console.log(response);
-    let datasets = [];
-    const colors = [CHART_COLORS.red,CHART_COLORS.blue,CHART_COLORS.green, CHART_COLORS.yellow];
-    let labels = ['search','top_5','top_10','top_20','top_50'];
-    response.data.forEach((record,i) => {
-      let data = labels.map(a=>record[a]);
-      console.log(record,data);
-      datasets.push({
-        label: record.email,
-        data: data,
-        fill: true,
-        backgroundColor: colors[i],
-      });
-    });
-    let emails = response.data.map( a => a.email);
-    let data = {labels: labels, datasets: datasets};
-    const config = {
-      type: 'bar',
-      data: data,
-      options: {
-        plugins: {
-          title: {
-            display: true,
-            text: 'Chart.js Bar Chart - Stacked'
-          },
-        },
-        responsive: true,
-        scales: {
-          x: {
-            stacked: true,
-          },
-          y: {
-            stacked: true
-          }
-        }
-      }
-    };
-
-    
-    $('body').html(`<canvas id="myChart"></canvas>`);
-    const myChart = new Chart(
-      document.getElementById('myChart'),
-      config
-    );
-  })
 
 
 }

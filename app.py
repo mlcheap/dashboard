@@ -22,7 +22,7 @@ def get_db(db):
 _projects = {
     'humansintheloop': ['SAU3','SAU2'],
     'skilllab': ['GBR', 'GBR2', 'DEU', 'DEU2', 'MEX2', 'NLD', 'NLD2', 'MEX', 'BRA','SAU', 'BRA2', 'SAU2', 'SAU3'],
-    'discoverdignify': ['MEX2','BRA2'],
+    'discoverdignify': ['MEX3','BRA3','MEX2','BRA2'],
 }
 
 app = Flask(__name__)
@@ -35,7 +35,6 @@ def index():
 def client(client_name):
     with open('static/index.html','r') as f:
         return f.read().format(onload=f"load_index('{client_name}', '0.5H')")
-      
       
 @app.route("/test")
 def test():
@@ -177,68 +176,3 @@ def get_tasks():
     resposne = df.to_json(orient='table')
     return Response(resposne, mimetype='application/json') 
   
-  
-# @app.route("/project-consensus")
-# def get_consensus():
-#     project_name = request.args.get('project_name')
-#     label, stats = eu.get_consensus(project_name)
-#     stats = stats.reset_index()
-#     stats.loc[len(stats),:] = ['','sum'] +  stats[['similar','different']].sum().to_list() 
-#     stats['cosensus'] = 100*stats.similar/(stats.similar+stats.different)
-#     stats['cosensus'] = stats.cosensus.apply(lambda x: str(int(x)) + '%')
-#     stats = stats.rename(columns={
-#         'email_x': 'annotator 1',
-#         'email_y': 'annotator 2',
-#         'similar': 'similar tags',
-#         'different': 'different tags'
-#     })
-#     return Response(stats.to_json(orient='records'), mimetype='application/json') 
-
-      
-# @app.route("/review")
-# def review():
-#     client_name = request.args.get('client_name')
-#     project_name = request.args.get('project_name')
-#     with open('static/index.html','r') as f:
-#         return f.read().format(onload=f"review('{client_name}','{project_name}','body')")    
-
-# @app.route("/review-tasks")
-# def review_tasks():
-#     with open('static/index.html','r') as f:
-#         return f.read().format(onload=f"review_tasks()")  
-
-
-# @app.route("/script.js")
-# def script():
-#     with open("static/script.js",'r') as f:
-#         return f.read()
-   
-
-
-# @app.route("/style.css")
-# def style():
-#     with open("static/style.css",'r') as f:
-#         return f.read()
-
-
-# @app.route("/get-users")
-# def get_users():
-#     client_name = request.args.get('client_name')
-#     response = _users[client_name]
-#     return Response(json.dumps(response), mimetype='application/json')
-
-# @app.route("/user-activity")
-# def user_activity():
-#     email = request.args.get('email')
-#     freq = request.args.get('freq')
-#     project_name = request.args.get('project_name')
-#     df = pd.read_csv('data/labels.csv')
-#     if email:
-#         df = df.loc[df.email==email]
-#     if project_name:
-#         df = df.loc[df.project_name==project_name]
-#     df.inserted_at = pd.to_datetime(df.inserted_at)
-#     stats = df[['inserted_at','project_name','labels']]
-#     stats = stats.groupby(['project_name',pd.Grouper(key="inserted_at", freq=freq)]).count()
-#     response = stats.reset_index(level=1).to_json(orient='table')
-#     return Response(response, mimetype='application/json')

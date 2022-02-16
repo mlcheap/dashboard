@@ -1,11 +1,16 @@
 import os
 import requests
+import numpy as np
 import json
 import ast
 import pandas as pd
 import psycopg2 as pg
 import pandas.io.sql as psql
 import tqdm
+import edlib
+import langdetect as ld
+import pycountry
+ld.DetectorFactory.seed = 0
 
 from MlCheap.Client import Client
 from MlCheap.LabelClass import LabelClass
@@ -229,7 +234,7 @@ def sample_vacancy(country, conn, num=300):
     job = psql.read_sql(f"""
         SELECT * FROM jobs 
         WHERE location_country='{country}'
-        AND RANDOM() <= .05
+        AND RANDOM() <= .5
         LIMIT {num}
         """, conn)
 
@@ -325,8 +330,7 @@ def get_consensus(project_name):
     else:
         stats = pd.DataFrame(columns=['project_name','email_x','email_y','similar','different'])
     return labels, stats
-  
-  
+
 def tag_stats(project_name, email):
     df = pd.read_csv('data/tags.csv')
     df = df.loc[df.email==email] if email else df
@@ -335,7 +339,7 @@ def tag_stats(project_name, email):
     df = df.groupby(['email','project_name'])[['total_tags','search','noisy','top_5','top_10','top_10','top_20','top_50']].sum()
     return df
   
-  
+
 def label_stats(project_name, email):
     df = pd.read_csv('data/labels.csv')
     df.inserted_at = pd.to_datetime(df.inserted_at)
@@ -350,3 +354,140 @@ def label_stats(project_name, email):
     
     return stats
 
+
+def find_duplicates(texts, simil_thresh,M=15,num_nn=100,num_iter=1, tokenizer=None,intersect=None, edit_dist=False, filter_ed=False):
+    if not tokenizer:
+        tokenizer = lambda text: set([abs(hash(token.lower())) for token in text.split()])
+    if not intersect:
+        intersect = lambda S1, S2: 2*len(S1.intersection(S2))/(len(S1)+len(S2))
+        
+    tokens = [tokenizer(text) for text in texts]
+
+    P = set()
+    L = len(texts) 
+    F = 1073741827 # a big prime
+
+    for it in range(num_iter):
+        X, Y, Z, W = np.random.randint(0, F,(4,M))
+        h = lambda tokens: np.array([(token+X)*Y % F  for token in tokens]).min(0)
+        minimizers = np.array([h(token) for token in tokens])
+        idx = np.lexsort(minimizers.transpose())
+        NN = np.arange(len(idx))
+        NN = NN[idx]
+        for i in tqdm.trange(0,L):
+            for j in range(1,min(num_nn+1,L-i)):
+                I, J = NN[i],NN[i+j]
+                if (I,J) in P:
+                    continue
+                I, J = min(I,J),max(I,J)
+                score = intersect(tokens[I],tokens[J])
+                if score>simil_thresh:
+                    if edit_dist:
+                        ed = edlib.align(texts[I].lower(),texts[J].lower())['editDistance']/max(len(texts[I]),len(texts[J]))
+                        if ed<1-simil_thresh:
+                            P.add((I,J))
+                    else:
+                        P.add((I,J))
+      
+        print(f"iteration {it+1}: pairs/texts: {len(P)/len(texts):.2f}")
+    P = np.array(list(P)).astype(int)
+    idx = np.array([False]*len(texts))
+    idx[np.unique(P[:,1])] = True
+    return idx
+
+
+def create_project(project_name, lang, num_samples,labels_per_task):
+    API_TOKEN = get_token()
+    client = Client(API_TOKEN)
+    client.api.base_api_url = 'http://flask_sdk:6221'
+    vac_conn, skill_conn = load_skillLab_DB()
+    
+    all_projs = client.get_all_projects()['data']['projects']
+    name2id = {prj['project_name']:prj['project_id'] for prj in all_projs}
+
+    alpha2name = {country.alpha_2:country.name for country in pycountry.countries}
+    alpha2alpha3 = {country.alpha_2:country.alpha_3 for country in pycountry.countries}
+
+    if lang=='en':
+        country = 'GB'
+    elif lang=='es':
+        country = 'MX'
+    elif lang=='pt':
+        country = 'BR'
+    elif lang=='ar':
+        country = 'SA'
+    else:
+        country = lang.upper()
+
+    models = get_models()
+    models = pd.DataFrame(models['data'])
+    model_id = models[models.lang==lang].id.iloc[-1] # chose last created model 
+    print(f"model_id for {lang} = {model_id}")
+
+    icon_path = f"data/flags/{country}.png"
+    response = client.upload_file(icon_path)
+    icon_id = response['data']['file_id']
+    print(response)
+    print(f"icon {icon_path} uploaded with id {icon_id}")
+
+    # add icon to project
+    project = Project(project_name, 
+                      labels_per_task,
+                      metadata={'lang':lang}, 
+                      model_id=model_id, 
+                      icon_id=icon_id)
+    if project_name in name2id.keys():
+        project_id = name2id[project_name]
+        client.edit_project(project,project_id=project_id)
+    else:
+        response = client.create_project(project)
+        project_id = response['data']['project_id']
+    print(f"project id = {project_id}")
+
+    client.edit_project(Project(icon_id=icon_id),project_id=project_id)
+
+    classes = sql_all_tags(lang,skill_conn)
+    add_classes(client, classes.to_dict(orient='records'), project_id)
+
+    if lang=='ar':
+        vacc = pd.read_csv('data/arabic.csv').rename(columns={'JobDescription': 'description','meta_Title': 'title'})
+    else:
+        # sample more to make sure enough remains after de-duplication & language detection
+        vacc = sample_vacancy(country,vac_conn,num=10000) 
+
+    if country=='BR':
+        uber_driver = vacc.description.str.contains('Uber') | vacc.description.str.contains('uber')
+        print(f"{sum(uber_driver)} jobs as Uber driver in Brazil were removed")
+        vacc = vacc.loc[~uber_driver]
+    # de-duplicate
+    duplicated = find_duplicates(texts = vacc.description.values, simil_thresh=.8,edit_dist=True,M=15,num_nn=3)
+    print(f"{sum(~duplicated)} unique jobs found");
+    vacc = vacc.loc[~duplicated]
+
+    # filter language 
+    def detect_lang(x):
+        if len(x)<10:
+            return ''
+        try:
+            return ld.detect(x)
+        except Exception:
+            return ''
+    language = np.array([detect_lang(x) for x in tqdm.tqdm(vacc.description.values,total=len(vacc))])
+    print(f"{sum(language==lang)} kept as {lang}")
+    vacc = vacc.loc[language==lang]
+
+    add_samples(client, vacc.sample(n=num_samples), project_id)
+
+    ## only for testing 
+    print("add labelers", client.add_labelers(project_id, ["test@test.com",]))
+
+    
+def cancel_all_tasks(client,project_name):
+    all_projs = client.get_all_projects()['data']['projects']
+    name2id = {prj['project_name']:prj['project_id'] for prj in all_projs}
+    project_id = name2id[project_name]
+    states = ['in-progress', 'pending']
+    for state in states: 
+        tasks = client.get_all_tasks(project_id=project_id,status=state)
+        task_ids = [task['_id'] for task in tasks['data']['tasks']]
+        [client.cancel_task(project_id=project_id,task_id=task_id) for task_id in task_ids]
