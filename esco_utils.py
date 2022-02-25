@@ -42,7 +42,7 @@ def get_stats(client):
     labelers = pd.DataFrame(labelers)
 
     # tasks
-    statuses = ['in-progress', 'pending', 'complete']
+    statuses = ['in-progress', 'pending', 'complete','canceled']
     tasks = [{**{'project_name':pname,'project_id':pid},**task} 
              for pname,pid in name2id.items() 
              for status in statuses 
@@ -64,7 +64,7 @@ def get_stats(client):
               for label in client.get_task(project_id=task.project_id,task_id=task.task_id)['data']['labels']]
     labels = pd.DataFrame(labels)
     labels = labels.merge(labelers,left_on='labeler_id',right_on='_id') # merge with labelers email 
-    labels = labels.loc[~labels[['email','task_id']].duplicated() ] # de-duplicate based on (email,task-id) pair 
+    labels = labels.loc[~labels[['email','task_id']].duplicated() ] # de-duplicate based on (email,task-id) 
 
 
     # get tags (individual tags)
@@ -491,3 +491,4 @@ def cancel_all_tasks(client,project_name):
         tasks = client.get_all_tasks(project_id=project_id,status=state)
         task_ids = [task['_id'] for task in tasks['data']['tasks']]
         [client.cancel_task(project_id=project_id,task_id=task_id) for task_id in task_ids]
+

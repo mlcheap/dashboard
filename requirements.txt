@@ -1,4 +1,4 @@
-edlib
+beautifulsoup4
 SQLAlchemy
 sqlalchemy
 psycopg2

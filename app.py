@@ -3,6 +3,8 @@ import json
 import esco_utils as eu
 import pandas as pd
 import numpy as np
+import sqlite3
+
 from flask import request
 from flask import Flask
 from flask import Response
@@ -12,16 +14,34 @@ from flask import g
 from flask import redirect 
 
 def get_db(db):
-    assert(db in ['vac','skill'])
+    assert(db in ['vac','skill','cache'])
     if db not in g:
         vac, skill = eu.load_skillLab_DB()
-        D = {'vac': vac, 'skill': skill}
+        con = sqlite3.connect('data/cache.db')
+        D = {'vac': vac, 'skill': skill,'cache': con}
         g.db = D[db] 
     return g.db
 
+
+def get_client():
+    if 'client' not in g:
+        API_TOKEN = eu.get_token()
+        client = eu.Client(API_TOKEN)
+        client.api.base_api_url = 'http://flask_sdk:6221'
+        g.client = client
+    return g.client
+
+def project_name2id(project_name):
+    client = get_client()
+    all_projs = client.get_all_projects()['data']['projects']
+    name2id = {prj['project_name']:prj['project_id'] for prj in all_projs}
+    project_id = name2id[project_name]
+    return project_id
+
+
 _projects = {
     'humansintheloop': ['SAU3','SAU2'],
-    'skilllab': ['GBR', 'GBR2', 'DEU', 'DEU2', 'MEX2', 'NLD', 'NLD2', 'MEX', 'BRA','SAU', 'BRA2', 'SAU2', 'SAU3'],
+    'skilllab': ['GBR', 'GBR2', 'DEU', 'DEU2', 'MEX2', 'NLD', 'NLD2', 'MEX', 'BRA','SAU', 'BRA2', 'SAU2', 'SAU3','MEX3','BRA3'],
     'discoverdignify': ['MEX3','BRA3','MEX2','BRA2'],
 }
 
@@ -138,7 +158,6 @@ def incosisntent_tasks():
     response = labels[['task_id']].to_json(orient='table')
     return Response(response, mimetype='application/json') 
 
-
 @app.route("/get-task")
 def get_task():
     task_id = request.args.get('task_id')
@@ -151,7 +170,6 @@ def get_task():
     occupations = pd.DataFrame(occupations)
     response = {'task': task_data, 'tags': occupations.drop(['updated_at','created_at'],axis=1).to_dict(orient='records')}
     return Response(json.dumps(response), mimetype='application/json') 
-
 
 @app.route("/get-tasks")
 def get_tasks():
@@ -175,4 +193,70 @@ def get_tasks():
         df = df.loc[df.num_tags >= int(num_tags)]
     resposne = df.to_json(orient='table')
     return Response(resposne, mimetype='application/json') 
-  
+
+@app.route("/admin/get-task-data")
+def admin_get_task_data():
+    project_id = request.args.get('project_id')
+    status = request.args.get('status') 
+    total_labels = request.args.get('total_labels') or 0
+    con = get_db('cache')
+    df = pd.read_sql(f"""
+    SELECT * FROM task_data 
+    WHERE project_id='{project_id}' 
+    AND status='{status}' 
+    AND total_labels>={total_labels}
+    """,con)
+    resposne = df.to_json(orient='table')
+    return Response(resposne, mimetype='application/json')     
+
+@app.route("/admin/reset-password")
+def admin_reset_pass():
+    email = request.args.get('email')
+    newpassword = request.args.get('newpassword')
+    
+    url = "https://skilllab.mlcheap.com/api/v5/auth/reset-password"
+
+    payload = json.dumps({
+      "email": email,
+      "new-password": newpassword,
+      "access-token": "9K7!z=kd88yDAj+PkK`VuHzeC.Df-h"
+    })
+    headers = {
+      'Content-Type': 'application/json'
+    }
+    response = requests.request("POST", url, headers=headers, data=payload)
+    return response 
+
+@app.route("/admin/all-projects")
+def admin_all_projects():
+    client = get_client()
+    response = client.get_all_projects()
+    return Response(json.dumps(response['data']), mimetype='application/json') 
+
+@app.route("/admin/all-labelers")
+def admin_all_labelers():
+    project_name = request.args.get('project_name')
+    project_id = project_name2id(project_name)
+    client = get_client()
+    response = client.all_labelers(project_id=name2id[project_name])
+    return Response(json.dumps(response['data']), mimetype='application/json') 
+
+@app.route("/admin/get-project")
+def admin_get_project():
+    project_name = request.args.get('project_name')
+    client = get_client()
+    project_id = project_name2id(project_name)
+    response = client.get_project(project_id=project_id)
+    return Response(json.dumps(response['data']), mimetype='application/json')  
+
+@app.route("/admin/all-tasks")
+def admin_all_tasks():
+    project_name = request.args.get('project_name')
+    status = request.args.get('status')
+    client = get_client()
+    project_id = project_name2id(project_name)
+    response = client.get_all_tasks(project_id=name2id[project_name],status=status)
+    return Response(json.dumps(response['data']), mimetype='application/json')  
+
+    
+# @app.route("/admin

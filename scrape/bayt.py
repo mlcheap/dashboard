@@ -35,8 +35,6 @@ def fetch_job(page, jobId, country='saudi-arabia'):
     response = requests.request("GET", url, headers=headers, data=payload, files=files)
     return response
 
-
-
 def search_jobs(page, country):
 
     url = f"https://www.bayt.com/en/{country}/jobs/?page={page}"
@@ -63,9 +61,6 @@ def search_jobs(page, country):
     nodes = soup.select("#results_inner_card > ul > li > div > h2 > a")
 
     return response, nodes
-
-
-
 
 def fetch(country, jobId):
     url = f"https://www.bayt.com/en/{country}/jobs/{jobId}"
@@ -96,7 +91,6 @@ def fetch(country, jobId):
     return response, data
 
 def main(country, pages):
-
     if os.path.isfile('jobs.jl'):
         df = pd.read_json('jobs.jl',lines=True)
         df['job-id'] = df['job-id'].astype('str')
@@ -129,7 +123,6 @@ def main(country, pages):
                     pass
 
 
-                
 # example run: python bayt.py 1-10 saudi-arabia
 if __name__=='__main__':
     pages = sys.argv[1]
