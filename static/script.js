@@ -23,6 +23,10 @@ function load_table(elem,data) {
 
 
 function review(task_ids, elem) {
+  function save_task() {
+      const task_id = $('.pagination a.active')[0].getAttribute('id');
+      const active_tags = $('.task .button.active i').map(function() { return this.id}).get();
+  }
   function load_task(task_id) {
     let e = d3.select(elem);
     d3.select('.pagination a.active').classed('active',false);
@@ -115,7 +119,6 @@ function modal(elem) {
       `);
   d3.select(`${elem} .close`).on('click', () => d3.select(elem).select(`.modal`).style('display', "none"));
 }
-
 
 function load_index(client_name,freq) {
   function load_proj(response,proj) {
@@ -223,4 +226,5 @@ function load_index(client_name,freq) {
 
 
 }
+
 
