@@ -7,7 +7,6 @@ import pandas as pd
 import psycopg2 as pg
 import pandas.io.sql as psql
 import tqdm
-import edlib
 import langdetect as ld
 import pycountry
 ld.DetectorFactory.seed = 0
