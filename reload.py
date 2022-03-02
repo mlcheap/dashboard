@@ -58,20 +58,25 @@ def cache_projects(client,con):
     df.to_sql("project_labelers",con,if_exists="replace",index=False)
 
     
-def cache_occupations(skill_con,con):
-    for T in ['occupations','skill','ISCOGroups','skillGroups','transversalSkillsCollection']:
-        files = glob.glob(f'data/esco/v1.0.3/{T}*.csv')
+def cache_occupations(skill_con,con,version):
+    multiling = [f.replace('_en','_*') for f in glob.glob(f'data/esco/{version}/*_en.csv')]
+    for pattern in multiling:
+        T = pattern.split('/')[-1].split('_')[0]
+        print('loading ',T)
+        files = glob.glob(pattern)
         dfs = []
         for file in files:
             df = pd.read_csv(file);
             df['lang'] = file.split('_')[-1].split('.')[0]
             dfs.append(df)
         df = pd.concat(dfs)
-        df['esco_version'] = 'v1.0.3'
         df.to_sql(f"{T}",con,if_exists="replace",index=False)
-    for T in ['skillSkillRelations','occupationSkillRelations','broaderRelationsOccPillar','broaderRelationsSkillPillar']:
-        df = pd.read_csv(f'data/esco/v1.0.3/{T}.csv')
-        df['esco_version'] = 'v1.0.3'
+
+    no_ling = set(glob.glob(f'data/esco/{version}/*.csv')) - set([a for f in multiling for a in glob.glob(f) ])
+    for file in no_ling:
+        T = file.split('/')[-1].split('.')[0]
+        print('loading ',T)
+        df = pd.read_csv(file)
         df.to_sql(f"{T}",con,if_exists="replace",index=False)
 
     # insert occupation_id from skillLab DB 
