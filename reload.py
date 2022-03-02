@@ -37,7 +37,6 @@ def cache_tasks(client,con):
     df = df.drop(['labels'],axis=1)
     df.to_sql("tags",con,if_exists="replace")
     
-    
 def cache_projects(client,con):
     all_projs = client.get_all_projects()['data']['projects']
     name2id = {prj['project_name']:prj['project_id'] for prj in all_projs}
@@ -59,7 +58,7 @@ def cache_projects(client,con):
     df.to_sql("project_labelers",con,if_exists="replace",index=False)
 
     
-def cache_occupations():
+def cache_occupations(skill_con,con):
     for T in ['occupations','skill','ISCOGroups','skillGroups','transversalSkillsCollection']:
         files = glob.glob(f'data/esco/v1.0.3/{T}*.csv')
         dfs = []
@@ -70,14 +69,14 @@ def cache_occupations():
         df = pd.concat(dfs)
         df['esco_version'] = 'v1.0.3'
         df.to_sql(f"{T}",con,if_exists="replace",index=False)
-    for T in ['skillSkillRelations','occupationSkillRelations']:
+    for T in ['skillSkillRelations','occupationSkillRelations','broaderRelationsOccPillar','broaderRelationsSkillPillar']:
         df = pd.read_csv(f'data/esco/v1.0.3/{T}.csv')
         df['esco_version'] = 'v1.0.3'
         df.to_sql(f"{T}",con,if_exists="replace",index=False)
 
     # insert occupation_id from skillLab DB 
     occ = pd.read_sql("SELECT * FROM occupations",con)  
-    skill_occ = psql.read_sql("SELECT * FROM occupations WHERE data_set='esco'", skill_conn)
+    skill_occ = psql.read_sql("SELECT * FROM occupations WHERE data_set='esco'", skill_con)
     occ = pd.merge(occ,skill_occ[['id','external_id']],left_on='conceptUri',right_on='external_id',how='left')
     occ = occ.rename(columns={'id': 'occupation_id'})
     occ.to_sql("occupations",con,if_exists="replace",index=False)
